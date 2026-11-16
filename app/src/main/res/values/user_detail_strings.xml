@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- The Users list: a row opens the User page. -->
+    <string name="users_row_description">%1$s, %2$s, %3$s. Opens the user page.</string>
+    <string name="users_server_label">Server: %1$s</string>
+
+    <!-- The User page: header. -->
+    <string name="user_page_back">Back to users</string>
+    <string name="user_page_title">User</string>
+    <string name="user_page_loading">Loading user…</string>
+    <string name="user_page_gone_title">User not found</string>
+    <string name="user_page_gone_body">The account may have been deleted by another admin</string>
+    <string name="user_status_active">Active</string>
+    <string name="user_status_disabled">Disabled</string>
+    <string name="user_badge_temporary_password">Temporary password</string>
+    <string name="user_meta_joined">Joined %1$s</string>
+    <string name="user_meta_last_active">Last active %1$s</string>
+    <string name="user_meta_no_activity">No recorded activity</string>
+    <string name="user_sign_in_password">Password sign-in</string>
+    <string name="user_sign_in_external">External sign-in</string>
+    <string name="user_view_only_owner">This is the server owner. Only the owner can change this account.</string>
+    <string name="user_view_only_admin">Only the server owner can change another admin account. You can view it.</string>
+    <string name="user_disabled_note">This account can’t sign in. Its profiles and history are kept.</string>
+    <string name="user_no_version_note">Changes to this account are unavailable: the server’s response arrived without an ETag, which saving requires. A reverse proxy that removes or rewrites the ETag header causes this.</string>
+
+    <!-- The User page: actions. -->
+    <string name="user_action_reset_password">Reset password</string>
+    <string name="user_action_set_password">Set password</string>
+    <string name="user_action_disable">Disable account</string>
+    <string name="user_action_enable">Enable account</string>
+    <string name="user_action_delete">Delete account</string>
+    <string name="user_disable_confirm_title">Disable %1$s?</string>
+    <string name="user_disable_confirm_body">They can’t sign in until you enable the account again. Their profiles, history and downloads are kept.</string>
+    <string name="user_delete_confirm_title">Delete %1$s?</string>
+    <string name="user_delete_confirm_body">This deletes the account, its profiles and its history. This can\'t be undone. To keep them, disable the account instead.</string>
+    <string name="user_discard_title">Discard changes?</string>
+    <string name="user_discard_body">Your changes to this user’s access and limits have not been saved</string>
+    <string name="user_discard_confirm">Discard</string>
+    <string name="user_discard_keep">Keep editing</string>
+
+    <!-- The User page: tabs. -->
+    <string name="user_tab_overview">Overview</string>
+    <string name="user_tab_access">Access &amp; limits</string>
+    <string name="user_tab_sign_in">Sign-in</string>
+    <string name="user_tab_activity">Activity</string>
+    <string name="user_tab_downloads">Downloads</string>
+
+    <!-- Overview. -->
+    <string name="user_overview_details">Details</string>
+    <string name="user_overview_email">Email</string>
+    <string name="user_overview_role">Role</string>
+    <string name="user_overview_access">Access</string>
+    <string name="user_overview_profiles">Profiles</string>
+    <string name="user_overview_no_profiles">No profiles</string>
+    <string name="user_overview_profile_seen">%1$s · last seen %2$s</string>
+    <string name="user_overview_stats">Last %1$d days</string>
+    <string name="user_overview_plays">Plays: %1$d (%2$d finished)</string>
+    <string name="user_overview_watch_time">Watch time: %1$s</string>
+    <string name="user_overview_last_played">Last played %1$s</string>
+    <string name="user_overview_never_played">Nothing played yet</string>
+    <string name="user_policy_libraries_all">Libraries: all</string>
+    <string name="user_policy_libraries_some">Libraries: %1$d</string>
+    <string name="user_policy_streams">Max streams: %1$d</string>
+    <string name="user_policy_transcodes">Max transcodes: %1$d</string>
+    <string name="user_policy_profiles">Max profiles: %1$d</string>
+    <string name="user_policy_downloads_on">Downloads: allowed</string>
+    <string name="user_policy_downloads_off">Downloads: not allowed</string>
+    <string name="user_policy_requests_on">Requests: allowed</string>
+    <string name="user_policy_requests_off">Requests: not allowed</string>
+
+    <!-- Access &amp; limits. -->
+    <string name="user_access_policy_owner_only">Only the server owner can change an admin’s access and limits</string>
+    <string name="user_access_view_only">You can view this account’s access and limits but not change them</string>
+    <string name="user_access_save">Save changes</string>
+    <string name="user_access_saved">Saved</string>
+
+    <!-- Sign-in. -->
+    <string name="user_signin_password_title">Password</string>
+    <string name="user_signin_password_on">This account signs in with a password</string>
+    <string name="user_signin_password_off">This account signs in through an external provider and has no password. Setting one turns password sign-in on.</string>
+    <string name="user_signin_temporary">The password is temporary. They must choose a new one at their next sign-in.</string>
+    <string name="user_signin_sessions_title">Sessions &amp; devices</string>
+    <string name="user_signin_sessions_unavailable">Sessions aren\'t available on this server</string>
+    <string name="user_signin_devices_unavailable">Devices aren\'t available on this server</string>
+
+    <!-- Set password dialog. -->
+    <string name="user_setpw_title">Set a password</string>
+    <string name="user_setpw_body">%1$s can’t sign in with a password now. Setting one turns password sign-in back on for this account. A connected sign-in provider keeps working.</string>
+    <string name="user_setpw_field">New password</string>
+    <string name="user_setpw_hint">At least 8 characters, at most 72 bytes. Share it with %1$s yourself.</string>
+    <string name="user_setpw_temporary">Require change at next sign-in</string>
+    <string name="user_setpw_submit">Set password</string>
+    <string name="user_setpw_working">Setting…</string>
+    <string name="user_setpw_too_short">The password needs at least 8 characters</string>
+    <string name="user_setpw_too_long">The password can be at most 72 bytes</string>
+    <string name="user_setpw_done">%1$s can sign in with the new password</string>
+    <string name="user_setpw_done_temporary">%1$s can sign in with the new password and must change it at the next sign-in</string>
+
+    <!-- Activity. -->
+    <string name="user_activity_history">Watch history</string>
+    <string name="user_activity_history_none">No playback yet</string>
+    <string name="user_activity_history_row">%1$s · %2$s</string>
+    <string name="user_activity_ips">IP addresses</string>
+    <string name="user_activity_ips_none">No sign-ins in the last 30 days</string>
+    <string name="user_activity_ip_row">%1$d requests · last %2$s</string>
+    <string name="user_load_more">Load more</string>
+
+    <!-- Downloads. -->
+    <string name="user_downloads_summary">%1$d downloads on %2$d devices: %3$d done, %4$d in progress, %5$d failed</string>
+    <string name="user_downloads_none">No downloads</string>
+    <string name="user_downloads_row">%1$s · %2$s</string>
+    <string name="user_downloads_title">Downloads</string>
+
+    <!-- Shared. -->
+    <string name="user_section_failed">Couldn\'t load this section</string>
+    <string name="user_unknown">Unknown</string>
+</resources>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Trend charts: Playback activity, Egress and Concurrent streams. Wording follows the web dashboard. -->
+    <string name="dashboard_concurrent_streams_title">Concurrent streams</string>
+
+    <!-- Range picker -->
+    <string name="dashboard_chart_range_hour">1h</string>
+    <string name="dashboard_chart_range_day">24h</string>
+    <string name="dashboard_chart_range_week">7d</string>
+    <string name="dashboard_chart_range_month">30d</string>
+    <string name="dashboard_chart_show_hour">Show the last hour</string>
+    <string name="dashboard_chart_show_day">Show the last 24 hours</string>
+    <string name="dashboard_chart_show_week">Show the last 7 days</string>
+    <string name="dashboard_chart_show_month">Show the last 30 days</string>
+    <string name="dashboard_chart_caption_hour">Last hour</string>
+    <string name="dashboard_chart_caption_day">Last 24 hours</string>
+    <string name="dashboard_chart_caption_week">Last 7 days</string>
+    <string name="dashboard_chart_caption_month">Last 30 days</string>
+    <string name="dashboard_chart_phrase_hour">the last hour</string>
+    <string name="dashboard_chart_phrase_day">the last 24 hours</string>
+    <string name="dashboard_chart_phrase_week">the last 7 days</string>
+    <string name="dashboard_chart_phrase_month">the last 30 days</string>
+    <string name="dashboard_chart_edge_hour">1h ago</string>
+    <string name="dashboard_chart_edge_day">24h ago</string>
+    <string name="dashboard_chart_edge_week">7d ago</string>
+    <string name="dashboard_chart_edge_month">30d ago</string>
+    <string name="dashboard_chart_edge_now">now</string>
+
+    <!-- Numbers shown with a chart -->
+    <string name="dashboard_chart_latest">Latest</string>
+    <string name="dashboard_chart_peak">Peak</string>
+    <string name="dashboard_chart_lowest">Lowest</string>
+    <string name="dashboard_chart_average">Average</string>
+    <string name="dashboard_chart_total">Total</string>
+    <string name="dashboard_chart_peak_at">at %1$s</string>
+    <string name="dashboard_chart_summary">Latest %1$s · Peak %2$s · Lowest %3$s</string>
+    <string name="dashboard_chart_summary_description">Latest %1$s, peak %2$s, lowest %3$s</string>
+    <string name="dashboard_chart_readings">Readings</string>
+    <string name="dashboard_chart_reading_none">No sample</string>
+    <string name="dashboard_chart_loading">Loading…</string>
+    <string name="dashboard_chart_empty_detail">The metrics sampler collects one sample a minute while the server runs</string>
+
+    <!-- Plain-number view -->
+    <string name="dashboard_chart_show_values">Show values</string>
+    <string name="dashboard_chart_show_chart">Show chart</string>
+    <string name="dashboard_chart_show_values_for">Show values for %1$s</string>
+    <string name="dashboard_chart_show_chart_for">Show chart for %1$s</string>
+
+    <!-- Playback activity -->
+    <plurals name="dashboard_playback_sessions">
+        <item quantity="one">%1$s session</item>
+        <item quantity="other">%1$s sessions</item>
+    </plurals>
+    <string name="dashboard_playback_series_direct_play">Direct play</string>
+    <string name="dashboard_playback_series_direct_stream">Direct stream</string>
+    <string name="dashboard_playback_series_transcode">Transcode</string>
+    <string name="dashboard_playback_chart_hourly">Playback sessions per hour over %1$s, by play method</string>
+    <string name="dashboard_playback_chart_daily">Playback sessions per day over %1$s, by play method</string>
+    <string name="dashboard_playback_chart_description">%1$s. %2$s in total. %3$s. %4$s.</string>
+    <string name="dashboard_playback_methods_description">Direct play %1$s, direct stream %2$s, transcode %3$s</string>
+    <string name="dashboard_playback_busiest_hourly">Busiest hour starts at %1$s with %2$s</string>
+    <string name="dashboard_playback_busiest_daily">Busiest day is %1$s with %2$s</string>
+    <string name="dashboard_playback_busiest_label_hourly">Busiest hour</string>
+    <string name="dashboard_playback_busiest_label_daily">Busiest day</string>
+    <string name="dashboard_playback_chart_empty">No playback in %1$s</string>
+    <string name="dashboard_playback_chart_empty_detail">Sessions appear here as soon as someone starts watching</string>
+    <string name="dashboard_playback_legend_item">%1$s %2$s</string>
+
+    <!-- Egress -->
+    <string name="dashboard_egress_chart_description">Egress over %1$s, in megabits per second</string>
+    <string name="dashboard_egress_chart_empty">No egress samples yet</string>
+    <string name="dashboard_egress_series">Egress</string>
+    <string name="dashboard_egress_downloads_series">Downloads</string>
+    <string name="dashboard_egress_total_value">Total %1$s</string>
+
+    <!-- Concurrent streams -->
+    <string name="dashboard_streams_chart_description">Concurrent streams over %1$s</string>
+    <string name="dashboard_streams_chart_empty">No stream samples yet</string>
+</resources>

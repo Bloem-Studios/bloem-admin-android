@@ -1,0 +1,7 @@
+<resources>
+    <string name="activity_scope_no_servers">No saved servers</string>
+    <!-- The first thing seen with no server saved: what goes here, and the one action that fills it. -->
+    <string name="activity_scope_welcome_title">Add a Silo server</string>
+    <string name="activity_scope_welcome_message">Add a server to see what is playing, handle requests and manage users from here.</string>
+    <string name="activity_scope_add_first">Add server</string>
+</resources>

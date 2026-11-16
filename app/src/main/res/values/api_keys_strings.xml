@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The API keys page (Configure, Sign-in and security): list, Load more, Revoke. Keys are created on the web admin. -->
+<resources>
+    <string name="tab_api_keys">API keys</string>
+    <string name="shell_page_api_keys">Admin API keys and tier assignment</string>
+
+    <string name="api_keys_load_failed">Couldn\'t load the API keys</string>
+    <string name="api_keys_unavailable_title">API key administration isn\'t available on this server</string>
+    <string name="api_keys_unavailable_detail">Turn it on in the web admin, then open this page again</string>
+    <string name="api_keys_none">No API keys yet</string>
+    <string name="api_keys_create_on_web">Create keys and change rate limits in the web admin</string>
+
+    <string name="api_keys_owner">Owner %1$s</string>
+    <string name="api_keys_access">Access: %1$s</string>
+    <string name="api_keys_full_access">Full access</string>
+    <string name="api_keys_last_used">Last used %1$s</string>
+    <string name="api_keys_never_used">Never used</string>
+    <string name="api_keys_created">Created %1$s</string>
+    <string name="api_keys_rate_standard">Standard rate limit</string>
+    <string name="api_keys_rate_elevated">Elevated rate limit</string>
+
+    <string name="api_keys_revoke">Revoke</string>
+    <string name="api_keys_revoke_for">Revoke %1$s</string>
+    <string name="api_keys_revoke_title">Revoke %1$s?</string>
+    <string name="api_keys_revoke_body">Anything using this key stops working at once. This can\'t be undone</string>
+    <string name="api_keys_revoke_confirm">Revoke key</string>
+    <string name="api_keys_revoke_failed">Couldn\'t revoke the key</string>
+    <string name="api_keys_revoke_no_version">The server didn\'t say which version of the key this is. Pull down to reload, then try again</string>
+    <string name="api_keys_notice_revoked">Revoked %1$s</string>
+    <string name="api_keys_notice_gone">%1$s was already revoked</string>
+    <string name="api_keys_revoke_owner_only">Only the server owner can revoke this key</string>
+
+    <string name="api_keys_load_more">Load more</string>
+    <string name="api_keys_more_failed">Couldn\'t load more keys</string>
+</resources>

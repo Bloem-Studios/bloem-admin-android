@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Server alerts: the notification channel, the notifications and the Settings section -->
+    <string name="alerts_channel_name">Servers</string>
+    <string name="alerts_channel_description">Tells you when a saved server stops answering and when it is back</string>
+    <string name="alerts_down_title">Can\'t reach %1$s</string>
+    <string name="alerts_down_text_generic">Tap to open the server</string>
+    <string name="alerts_down_text_details">No answer since %1$s. Tap to open the server</string>
+    <string name="alerts_back_title">%1$s is reachable again</string>
+    <string name="alerts_back_text">Tap to open the server</string>
+
+    <string name="alerts_section_title">Server alerts</string>
+    <string name="alerts_master_label">Alert me when a server stops answering</string>
+    <string name="alerts_master_description">Checks the servers you pick about every 15 minutes while the device is online, without signing in. Android may run a check later to save battery</string>
+    <string name="alerts_servers_heading">Servers to watch</string>
+    <string name="alerts_no_servers">Save a server to watch it</string>
+    <string name="alerts_details_label">Show details on lock screen</string>
+    <string name="alerts_details_description">Off: the lock screen shows only server names and counts, in alerts, widgets, tiles and the scan and backup progress. On: it also shows when a server stopped answering, and names and titles</string>
+    <string name="alerts_blocked_title">Notifications are off in system settings</string>
+    <string name="alerts_blocked_body">Alerts can\'t appear until you allow notifications for Bloem Admin</string>
+    <string name="alerts_open_system_settings">Open system settings</string>
+
+    <!-- Home-screen widget -->
+    <string name="widget_label">Server status</string>
+    <string name="widget_description">Bloem Admin: whether a server answers, streams playing and requests waiting</string>
+    <string name="widget_reach_reachable">Reachable</string>
+    <string name="widget_reach_not_reachable">Not reachable</string>
+    <string name="widget_reach_not_checked">Not checked yet</string>
+    <string name="widget_streams">Streams</string>
+    <string name="widget_requests">Requests waiting</string>
+    <string name="widget_sign_in_for_counts">Sign in to see counts</string>
+    <string name="widget_counts_unavailable">Counts unavailable</string>
+    <string name="widget_all_servers">All servers</string>
+    <string name="widget_all_reachable">%1$d of %2$d reachable</string>
+    <string name="widget_all_counts_from">Counts from %1$d of %2$d servers</string>
+    <string name="widget_server_removed">This server was removed</string>
+    <string name="widget_server_removed_hint">Remove the widget and add it again</string>
+    <string name="widget_no_servers">No saved servers</string>
+    <string name="widget_no_servers_hint">Open the app to add one</string>
+    <string name="widget_choose_title">Choose what this widget shows</string>
+    
+    <!-- Quick Settings tile -->
+    <string name="tile_label">Now playing</string>
+    <string name="tile_nothing_playing">None playing</string>
+    <string name="tile_no_data">No data yet</string>
+    <plurals name="tile_streams">
+        <item quantity="one">%d stream</item>
+        <item quantity="other">%d streams</item>
+    </plurals>
+
+    <!-- Launcher shortcuts -->
+    <string name="shortcut_now_playing_short">Now playing</string>
+    <string name="shortcut_now_playing_long">Now playing on all servers</string>
+    <string name="shortcut_requests_short">Requests</string>
+    <string name="shortcut_requests_long">Requests on all servers</string>
+    <string name="shortcut_dashboard_short">Dashboard</string>
+    <string name="shortcut_dashboard_long">Dashboard for all servers</string>
+    <string name="shortcut_server_now_playing_short">Now playing, %1$s</string>
+    <string name="shortcut_server_now_playing_long">Now playing on %1$s</string>
+    <string name="shortcut_server_requests_short">Requests, %1$s</string>
+    <string name="shortcut_server_requests_long">Requests on %1$s</string>
+</resources>

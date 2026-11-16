@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- A plain card for launchers older than Android 15, which cannot ask the widget to draw its own preview. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="160dp"
+    android:height="110dp"
+    android:viewportWidth="160"
+    android:viewportHeight="110">
+    <path
+        android:fillColor="#FF1C1C20"
+        android:pathData="M16,0h128a16,16 0 0 1 16,16v78a16,16 0 0 1 -16,16h-128a16,16 0 0 1 -16,-16v-78a16,16 0 0 1 16,-16z" />
+    <path
+        android:fillColor="#FFA4A4AE"
+        android:pathData="M16,18h56v6h-56z" />
+    <path
+        android:fillColor="#FFE8E8EC"
+        android:pathData="M16,40h36v22h-36z" />
+</vector>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Nodes: the page under Manage, with the load, capacity and drain state of each stream node. -->
+<resources>
+    <string name="tab_nodes">Nodes</string>
+    <string name="shell_page_nodes">Stream nodes, remote worker status, and where playback work runs</string>
+
+    <string name="nodes_none">No stream nodes are set up on this server</string>
+    <string name="nodes_type_transcode">Transcode node</string>
+    <string name="nodes_type_proxy">Proxy node</string>
+    <string name="nodes_state_healthy">Healthy</string>
+    <string name="nodes_state_draining">Draining</string>
+    <string name="nodes_state_drained">Drained</string>
+    <string name="nodes_state_unhealthy">Not answering</string>
+    <string name="nodes_state_disabled">Off</string>
+    <string name="nodes_drained_hint">Safe to stop: no work is left on it</string>
+    <plurals name="nodes_draining_hint">
+        <item quantity="one">Finishing %1$d active session before it can stop</item>
+        <item quantity="other">Finishing %1$d active sessions before it can stop</item>
+    </plurals>
+    <string name="nodes_unhealthy_hint">The last health check failed</string>
+
+    <string name="nodes_load_title">Load</string>
+    <string name="nodes_cpu">CPU</string>
+    <string name="nodes_memory">Memory</string>
+    <string name="nodes_disk">Disk</string>
+    <string name="nodes_network">Network</string>
+    <string name="nodes_percent">%1$d%%</string>
+    <string name="nodes_memory_value">%1$d%% · %2$s of %3$s</string>
+    <string name="nodes_network_value">↓ %1$s Mbps · ↑ %2$s Mbps</string>
+    <string name="nodes_no_reading">No current reading</string>
+    <string name="nodes_gb">%1$s GB</string>
+
+    <string name="nodes_capacity_title">Capacity</string>
+    <string name="nodes_capacity_transcodes">Transcodes</string>
+    <string name="nodes_capacity_streams">Streams</string>
+    <string name="nodes_capacity_value">%1$d of %2$d</string>
+    <string name="nodes_capacity_value_unlimited">%1$d, no limit</string>
+    <string name="nodes_capacity_egress">Egress</string>
+    <string name="nodes_capacity_egress_value">%1$s of %2$s Mbps</string>
+    <string name="nodes_capacity_egress_value_unlimited">%1$s Mbps</string>
+    <string name="nodes_last_check">Last health check</string>
+    <string name="nodes_never_checked">Never</string>
+
+    <string name="nodes_action_drain">Drain</string>
+    <string name="nodes_action_resume">Resume</string>
+    <string name="nodes_action_enable">Turn on</string>
+    <string name="nodes_action_disable">Turn off</string>
+    <string name="nodes_actions_for">Actions for %1$s</string>
+
+    <string name="nodes_drain_title">Drain %1$s?</string>
+    <string name="nodes_drain_message">It takes no new work while its current sessions finish. Nothing is cut off, and you can resume it at any time</string>
+    <string name="nodes_resume_title">Resume %1$s?</string>
+    <string name="nodes_resume_message">It takes new work again</string>
+    <string name="nodes_disable_title">Turn off %1$s?</string>
+    <string name="nodes_disable_message">It gets no new work and is no longer health-checked. Streams already running on it keep going</string>
+    <string name="nodes_enable_title">Turn on %1$s?</string>
+    <string name="nodes_enable_message">It is health-checked again and takes work once it answers</string>
+
+    <string name="nodes_unsupported">This server does not offer node management. Update the server to see its nodes here</string>
+    <string name="nodes_error_load">Couldn\'t load the nodes</string>
+    <string name="nodes_error_drain">Couldn\'t drain the node</string>
+    <string name="nodes_error_resume">Couldn\'t resume the node</string>
+    <string name="nodes_error_enable">Couldn\'t turn the node on</string>
+    <string name="nodes_error_disable">Couldn\'t turn the node off</string>
+    <string name="nodes_error_gone">That node is no longer set up on the server. Refresh the list</string>
+    <string name="nodes_error_changed">The node was changed elsewhere. The list is refreshed, so check it and try again</string>
+</resources>

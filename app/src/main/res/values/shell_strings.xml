@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="shell_open_menu">Open menu</string>
+    <string name="shell_navigation">Navigation</string>
+    <string name="shell_back">Back</string>
+</resources>

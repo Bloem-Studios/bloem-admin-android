@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- User page support tools: reset link, temporary password, Profiles tab, Watching now, session and device times. -->
+<resources>
+    <!-- Reset password -->
+    <string name="user_reset_choose">Choose how %1$s gets back in</string>
+    <string name="user_reset_email_title">Email a link</string>
+    <string name="user_reset_email_hint">Sends a one-time link to %1$s</string>
+    <string name="user_reset_email_missing">This account has no email address</string>
+    <string name="user_reset_email_off">This server can\'t send email</string>
+    <string name="user_reset_link_title">Create link</string>
+    <string name="user_reset_link_hint">Shows a one-time link for you to hand over yourself</string>
+    <string name="user_reset_link_off">This server can\'t create reset links. It needs its public address in the server settings</string>
+    <string name="user_reset_disabled">This account is turned off. Turn it on to send a reset</string>
+    <string name="user_reset_none">No reset option is available on this server</string>
+    <string name="user_reset_replaces">A new link replaces any link sent before</string>
+    <string name="user_reset_link_failed">Couldn\'t create the link</string>
+    <string name="user_reset_link_missing">The server made a link but didn\'t return it. Create another link</string>
+    <string name="user_reset_link_dialog_title">One-time reset link</string>
+    <string name="user_reset_link_dialog_body">Give this link to %1$s. It works until %2$s and is shown only now: closing this removes it</string>
+    <string name="user_reset_link_field">Reset link</string>
+    <string name="user_reset_link_copy">Copy link</string>
+    <string name="user_reset_link_copied">Copied</string>
+    <string name="user_reset_link_share">Share link</string>
+    <string name="user_reset_link_share_title">Share the reset link</string>
+    <string name="user_reset_link_done">Done</string>
+
+    <!-- Set temporary password -->
+    <string name="user_action_set_temporary_password">Set temporary password</string>
+    <string name="user_setpw_title_temporary">Set a temporary password</string>
+    <string name="user_setpw_body_password">Choose a password for %1$s and tell them yourself. Their old password stops working</string>
+    <string name="user_setpw_done_signin">%1$s can sign in with the new password</string>
+
+    <!-- Profiles tab -->
+    <string name="user_tab_profiles">Profiles</string>
+    <string name="user_profiles_add">Add profile</string>
+    <string name="user_profiles_none">This account has no profiles</string>
+    <string name="user_profiles_badge_primary">Primary</string>
+    <string name="user_profiles_badge_kids">Kids</string>
+    <string name="user_profiles_badge_pin">PIN</string>
+    <string name="user_profiles_last_seen">Last seen %1$s</string>
+    <string name="user_profiles_never_seen">Not seen yet</string>
+    <string name="user_profiles_rename">Rename</string>
+    <string name="user_profiles_set_pin">Set PIN</string>
+    <string name="user_profiles_change_pin">Change PIN</string>
+    <string name="user_profiles_remove_pin">Remove PIN</string>
+    <string name="user_profiles_delete">Delete profile</string>
+    <string name="user_profiles_actions_for">Actions for %1$s</string>
+    <string name="user_profiles_name_label">Profile name</string>
+    <string name="user_profiles_name_count">%1$d of 64</string>
+    <string name="user_profiles_add_title">Add a profile</string>
+    <string name="user_profiles_add_confirm">Add</string>
+    <string name="user_profiles_rename_title">Rename %1$s</string>
+    <string name="user_profiles_save">Save changes</string>
+    <string name="user_profiles_pin_label">New PIN</string>
+    <string name="user_profiles_pin_hint">4 digits</string>
+    <string name="user_profiles_pin_invalid">The PIN must be exactly 4 digits</string>
+    <string name="user_profiles_pin_set_title">Set a PIN for %1$s</string>
+    <string name="user_profiles_pin_change_title">Change %1$s\'s PIN</string>
+    <string name="user_profiles_pin_set_body">The profile will ask for this PIN when it is opened</string>
+    <string name="user_profiles_pin_change_body">Devices unlocked with the old PIN will ask for the new one</string>
+    <string name="user_profiles_pin_primary_note">This is the household\'s primary profile, so the PIN also guards managing the household</string>
+    <string name="user_profiles_pin_save">Save PIN</string>
+    <string name="user_profiles_pin_remove_title">Remove %1$s\'s PIN?</string>
+    <string name="user_profiles_pin_remove_body">Anyone signed in to this account can then open this profile without a PIN</string>
+    <string name="user_profiles_pin_remove_primary_body">Anyone signed in to this account can then open this profile and manage the household without a PIN</string>
+    <string name="user_profiles_delete_title">Delete %1$s?</string>
+    <string name="user_profiles_delete_body">The profile and what it saved on this account, such as its settings, watchlist and ratings, are removed. This can\'t be undone</string>
+    <string name="user_profiles_notice_added">Profile added</string>
+    <string name="user_profiles_notice_renamed">Profile renamed</string>
+    <string name="user_profiles_notice_pin_set">PIN set</string>
+    <string name="user_profiles_notice_pin_removed">PIN removed</string>
+    <string name="user_profiles_notice_deleted">Profile deleted</string>
+    <string name="user_profiles_action_failed">Couldn\'t change the profile</string>
+    <string name="user_profiles_read_only_owner">Only the server owner can change this account\'s profiles</string>
+    <string name="user_profiles_read_only_unsupported">This server can\'t change profiles from the admin page</string>
+
+    <!-- Overview: Watching now -->
+    <string name="user_watching_now">Watching now</string>
+    <string name="user_watching_profile">Profile %1$s</string>
+    <string name="user_watching_position">%1$d of %2$d min</string>
+    <string name="user_watching_playing">Playing</string>
+    <string name="user_watching_paused">Paused</string>
+
+    <!-- Sign-in tab: session and device times -->
+    <string name="user_session_last_seen">Last seen %1$s</string>
+    <string name="user_session_expires">Expires %1$s</string>
+    <string name="user_device_last_seen">Last seen %1$s</string>
+    <string name="user_device_never_seen">Not seen yet</string>
+</resources>

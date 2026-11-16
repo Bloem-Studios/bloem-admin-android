@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Page search (the web's "Search admin sections") -->
+    <string name="shell_search_open">Search pages</string>
+    <string name="shell_search_close">Close search</string>
+    <string name="shell_search_clear">Clear search</string>
+    <string name="shell_search_placeholder">Search pages</string>
+    <string name="shell_search_results">Pages</string>
+    <string name="shell_search_none">No matching pages</string>
+    <plurals name="shell_search_total">
+        <item quantity="one">%1$d page</item>
+        <item quantity="other">%1$d pages</item>
+    </plurals>
+    <plurals name="shell_search_matches">
+        <item quantity="one">%1$d match</item>
+        <item quantity="other">%1$d matches</item>
+    </plurals>
+
+    <!-- Page descriptions, from the web admin -->
+    <string name="shell_page_dashboard">Live sessions, content health, and server activity</string>
+    <string name="shell_page_streams">Live streams and current playback sessions</string>
+    <string name="shell_page_activity">Historical playback events across users and profiles</string>
+    <string name="shell_page_logs">Server log stream and operational output</string>
+    <string name="shell_page_requests">Review, approve, and decline media requests</string>
+    <string name="shell_page_jobs">Background task schedules, runs and history</string>
+    <string name="shell_page_users">Accounts, roles, profile settings, and access</string>
+    <string name="shell_page_tenants">Every organization on this server, and its members</string>
+    <string name="shell_page_server">Server name and address, sign-in, playback, email, downloads, requests and logging, plus restart and tests</string>
+    <string name="shell_page_audit">Who changed what on this server, and when</string>
+    <string name="shell_page_org_overview">Members, libraries and recent changes at a glance</string>
+    <string name="shell_page_org_people">Everyone in this organization, their profiles and their plan</string>
+    <string name="shell_page_org_cohorts">Groups of accounts that share the same settings</string>
+    <string name="shell_page_org_groups">Groups that set what their profiles can do</string>
+    <string name="shell_page_org_libraries">Libraries this organization owns or has been given</string>
+    <string name="shell_page_org_invitations">Invite administrators and members to this organization</string>
+    <string name="shell_page_org_decisions">Why someone was allowed or refused something</string>
+    <string name="shell_page_org_activity">Who changed what in this organization, and when</string>
+
+    <!-- Top bar titles of the screens that come before a server's pages -->
+    <string name="shell_title_checking_access">Checking access</string>
+    <string name="shell_title_sign_in">Sign in</string>
+    <string name="shell_title_organizations">Organizations</string>
+    <string name="shell_title_no_access">No access</string>
+    <string name="shell_title_unreachable">Can\'t reach server</string>
+
+    <!-- Manage servers, laid out like a web settings page -->
+    <string name="server_list_signed_in">Signed in</string>
+    <string name="server_list_signed_out">Signed out</string>
+    <string name="server_list_app_section">App</string>
+    <string name="server_list_app_settings_description">Device unlock and other settings for this app</string>
+</resources>

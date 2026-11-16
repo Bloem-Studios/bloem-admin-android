@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Colors that platform surfaces outside Compose need as resources. Each one equals a VeilPalette.Dark token
+         (NativeColorsMatchPaletteTest keeps them in step): the launcher draws shortcut icons without our theme. -->
+    <color name="native_surface">#FF141417</color>
+    <color name="native_glyph">#FFE8E8EC</color>
+</resources>

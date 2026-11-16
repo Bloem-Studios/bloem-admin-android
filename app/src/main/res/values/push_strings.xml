@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Push notifications from a Bloem server. Sentence case, no trailing period. -->
+    <string name="push_section_title">Notifications</string>
+    <string name="push_section_description">A server that supports it can notify you when something is broken or waiting on you. Switch each kind on or off per server</string>
+    <string name="push_kind_server_down">Server can\'t be reached</string>
+    <string name="push_kind_server_up">Server is back</string>
+    <string name="push_kind_request_waiting">Request waiting</string>
+    <string name="push_kind_scan_failed">Library scan failed</string>
+    <string name="push_kind_backup_failed">Backup failed</string>
+    <string name="push_kind_node_offline">Node offline</string>
+    <string name="push_kind_plugin_failed">Plugin needs attention</string>
+
+    <string name="push_status_unknown">Checking whether this server can send notifications</string>
+    <string name="push_status_not_available">Push isn\'t available on this server. Only the server-down checks apply</string>
+    <string name="push_status_not_configured">This server can send notifications, but this build of the app isn\'t set up to receive them. Only the server-down checks apply</string>
+    <string name="push_status_needs_permission">Allow notifications to receive these</string>
+    <string name="push_status_registered">This server sends you notifications</string>
+    <string name="push_status_failed">Couldn\'t set up notifications with this server. The app will try again</string>
+    <string name="push_permission_body">Allow notifications for Bloem Admin to receive these from your servers</string>
+    <string name="push_allow">Allow notifications</string>
+
+    <string name="push_channel_servers">Servers</string>
+    <string name="push_channel_requests">Requests</string>
+    <string name="push_channel_requests_description">Media requests waiting for you to approve or decline</string>
+    <string name="push_channel_libraries">Libraries</string>
+    <string name="push_channel_libraries_description">Library scans that failed or storage that can\'t be reached</string>
+    <string name="push_channel_backups">Backups</string>
+    <string name="push_channel_backups_description">Backups that failed</string>
+    <string name="push_channel_nodes">Nodes</string>
+    <string name="push_channel_nodes_description">Transcode and proxy nodes that went offline</string>
+    <string name="push_channel_plugins">Plugins</string>
+    <string name="push_channel_plugins_description">Plugins that crashed or need attention</string>
+
+    <string name="push_generic_title">New notification</string>
+    <string name="push_generic_text">Open the app to see it</string>
+    <string name="push_lock_request">Request update</string>
+
+    <string name="push_action_approve">Approve</string>
+    <string name="push_action_decline">Decline</string>
+    <string name="push_action_approve_lower">approve</string>
+    <string name="push_action_decline_lower">decline</string>
+    <string name="push_action_approved">Approved</string>
+    <string name="push_action_declined">Declined</string>
+    <string name="push_action_already_done">Already handled</string>
+    <string name="push_action_failed">Couldn\'t %1$s, open the app</string>
+</resources>

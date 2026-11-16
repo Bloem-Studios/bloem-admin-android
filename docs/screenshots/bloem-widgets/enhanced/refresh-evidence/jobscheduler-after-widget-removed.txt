@@ -1,0 +1,2 @@
+    JobStatus{32d0794 androidx.work.systemjobscheduler:u0a269/2 @androidx.work.systemjobscheduler@com.bloemstudios.admin/androidx.work.impl.background.systemjob.SystemJobService u=0 s=10269 READY}: 14437733
+    JobStatus{aaf3383 androidx.work.systemjobscheduler:u0a269/3 @androidx.work.systemjobscheduler@com.bloemstudios.admin/androidx.work.impl.background.systemjob.SystemJobService u=0 s=10269 TIME=+3649d23h59m58s999ms:none CHARGING satisfied:0x3600003 unsatisfied:0x80000000}: 315389152150

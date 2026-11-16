@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Bulk triage on Needs approval, the count on the menu item, and an unavailable or stale queue. -->
+<resources>
+    <string name="requests_select">Select</string>
+    <string name="requests_select_all_shown">Select all shown</string>
+    <string name="requests_select_done">Done</string>
+    <string name="requests_selected_count">%1$d selected</string>
+    <string name="requests_select_row">Select %1$s</string>
+    <string name="requests_bulk_approve">Approve %1$d</string>
+    <string name="requests_bulk_decline">Decline %1$d</string>
+    <string name="requests_bulk_busy">Another action on this request is still running</string>
+    <string name="requests_bulk_approving">Approving %1$d of %2$d</string>
+    <string name="requests_bulk_declining">Declining %1$d of %2$d</string>
+    <plurals name="requests_bulk_approved">
+        <item quantity="one">Approved %d request</item>
+        <item quantity="other">Approved %d requests</item>
+    </plurals>
+    <plurals name="requests_bulk_declined">
+        <item quantity="one">Declined %d request</item>
+        <item quantity="other">Declined %d requests</item>
+    </plurals>
+    <string name="requests_bulk_approve_partial">Approved %1$d of %2$d. The rest stay selected</string>
+    <string name="requests_bulk_decline_partial">Declined %1$d of %2$d. The rest stay selected</string>
+    <string name="requests_bulk_failure">%1$s: %2$s</string>
+    <plurals name="requests_bulk_decline_title">
+        <item quantity="one">Decline %d request</item>
+        <item quantity="other">Decline %d requests</item>
+    </plurals>
+    <string name="requests_bulk_decline_message">The note goes with every decline. You can leave it empty</string>
+    <string name="requests_bulk_server_line">%1$s, on %2$s</string>
+
+    <string name="requests_unavailable_title">Request administration isn\'t available on this server</string>
+    <string name="requests_unavailable_detail">The server says its request service isn\'t running. Set it up on the server, then pull down to check again</string>
+    <string name="requests_stale">Couldn\'t refresh · last updated %1$s</string>
+
+    <plurals name="requests_waiting_description">
+        <item quantity="one">%d request needs approval</item>
+        <item quantity="other">%d requests need approval</item>
+    </plurals>
+</resources>

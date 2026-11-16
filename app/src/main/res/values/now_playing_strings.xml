@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Now Playing: the stream row, the playback decision and the details a row opens to. Wording follows the web admin's Activity page. -->
+    <string name="streams_method_direct">Direct play</string>
+    <string name="streams_method_remux">Remux</string>
+    <string name="streams_method_direct_stream">Direct stream</string>
+    <string name="streams_method_transcode">Transcode</string>
+    <string name="streams_method_unknown">Unknown</string>
+
+    <string name="streams_decision_direct">Direct</string>
+    <string name="streams_decision_copy">Copy</string>
+    <string name="streams_decision_transcode">Transcode</string>
+
+    <string name="streams_line_video">Video: %1$s</string>
+    <string name="streams_line_audio">Audio: %1$s</string>
+
+    <string name="streams_mode_hardware">HW %1$s</string>
+    <string name="streams_mode_software">SW</string>
+    <string name="streams_mode_pending">HW/SW pending</string>
+    <string name="streams_mode_unknown">HW/SW unknown</string>
+    <string name="streams_mode_audio_only">Audio transcode</string>
+    <string name="streams_tone_map_hardware">HW tone map</string>
+    <string name="streams_tone_map_software">SW tone map</string>
+
+    <string name="streams_time_progress">%1$s / %2$s</string>
+    <string name="streams_progress_description">%1$s of %2$s, %3$s left</string>
+    <string name="streams_progress_description_open">at %1$s</string>
+
+    <!-- Now playing, when the sessions could not be read and there is nothing to show: what went wrong and what to do. -->
+    <string name="session_failure_connection">The connection to this server was lost. Check that the server is running and that this device is online, then try again.</string>
+    <string name="session_failure_deadline">The server took too long to answer. Check that it is running, then try again.</string>
+    <string name="session_failure_protocol">The server sent live updates this app couldn\'t read. Check that the server and this app are up to date, then try again.</string>
+
+    <string name="streams_row_state_expanded">Details shown</string>
+    <string name="streams_row_state_collapsed">Details hidden</string>
+    <string name="streams_row_show_details">Show details</string>
+    <string name="streams_row_hide_details">Hide details</string>
+
+    <string name="streams_detail_method">Method</string>
+    <string name="streams_detail_video">Video</string>
+    <string name="streams_detail_audio">Audio</string>
+    <string name="streams_detail_container">Container</string>
+    <string name="streams_detail_source_bitrate">Source bitrate</string>
+    <string name="streams_detail_stream_bitrate">Stream bitrate</string>
+    <string name="streams_detail_audio_track">Audio track</string>
+    <string name="streams_detail_transcoder">Transcoder</string>
+    <string name="streams_detail_node">Playing node</string>
+    <string name="streams_detail_client">Client</string>
+    <string name="streams_detail_network">Network</string>
+    <string name="streams_detail_client_ip">Client IP</string>
+    <string name="streams_detail_started">Started</string>
+    <string name="streams_detail_updated">Last update</string>
+    <string name="streams_detail_unknown_source">Unknown source</string>
+    <string name="streams_detail_output">Output → %1$s</string>
+    <string name="streams_detail_transcoding">Transcoding</string>
+    <string name="streams_detail_no_video_conversion">No video conversion</string>
+    <string name="streams_detail_no_audio_conversion">No audio conversion</string>
+    <string name="streams_detail_copied">Copied without re-encoding</string>
+    <string name="streams_network_local">Local</string>
+    <string name="streams_network_remote">Remote</string>
+
+    <string name="streams_node_local">Local server</string>
+    <string name="streams_node_named">%1$s: %2$s</string>
+    <string name="streams_node_role_transcode">Transcode</string>
+    <string name="streams_node_role_proxy">Proxy</string>
+    <string name="streams_node_role_server">Server</string>
+    <string name="streams_node_role_node">Node</string>
+</resources>

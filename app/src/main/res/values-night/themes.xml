@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dark graphite: the web admin's #141417. -->
+    <style name="Theme.BloemAdmin" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:colorBackground">#141417</item>
+        <item name="android:navigationBarColor">#141417</item>
+        <item name="android:statusBarColor">#141417</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>

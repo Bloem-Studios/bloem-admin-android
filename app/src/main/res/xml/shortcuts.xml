@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Long-press the launcher icon: Now playing, Requests and Dashboard for All servers. The app adds one pair per recently used
+     server on top of these (see ShortcutPublisher). Each opens through the app lock and the admin check. -->
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="all:now-playing"
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_now_playing"
+        android:shortcutShortLabel="@string/shortcut_now_playing_short"
+        android:shortcutLongLabel="@string/shortcut_now_playing_long">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="bloemadmin://all/now-playing"
+            android:targetPackage="com.bloemstudios.admin"
+            android:targetClass="com.bloemstudios.admin.MainActivity" />
+    </shortcut>
+    <shortcut
+        android:shortcutId="all:requests"
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_requests"
+        android:shortcutShortLabel="@string/shortcut_requests_short"
+        android:shortcutLongLabel="@string/shortcut_requests_long">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="bloemadmin://all/requests"
+            android:targetPackage="com.bloemstudios.admin"
+            android:targetClass="com.bloemstudios.admin.MainActivity" />
+    </shortcut>
+    <shortcut
+        android:shortcutId="all:dashboard"
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_dashboard"
+        android:shortcutShortLabel="@string/shortcut_dashboard_short"
+        android:shortcutLongLabel="@string/shortcut_dashboard_long">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="bloemadmin://all/dashboard"
+            android:targetPackage="com.bloemstudios.admin"
+            android:targetClass="com.bloemstudios.admin.MainActivity" />
+    </shortcut>
+</shortcuts>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Backups: the page under Configure. Restore, upload, download and storage setup stay on the web. -->
+<resources>
+    <string name="tab_backups">Backups</string>
+    <string name="shell_page_backups">Nightly backups of the database and uploaded files, and how to restore them</string>
+
+    <string name="backups_last_success">Last backup %1$s</string>
+    <string name="backups_none_yet">No backup yet</string>
+    <string name="backups_next_run">Next backup %1$s</string>
+    <string name="backups_next_unknown">Next backup time unknown</string>
+    <string name="backups_nightly_off">Nightly backups are off</string>
+    <string name="backups_last_run_failed">The last backup failed: %1$s</string>
+    <string name="backups_last_run_failed_no_reason">The last backup failed</string>
+    <string name="backups_last_run_interrupted">The last backup was interrupted when the server stopped</string>
+    <string name="backups_running_percent">Backing up · %1$s</string>
+    <string name="backups_running">Backing up</string>
+    <string name="backups_progress_description">Backup progress</string>
+    <string name="backups_busy_restore">A restore is running</string>
+    <string name="backups_busy_delete">A backup is being deleted</string>
+    <string name="backups_busy_upload">A backup upload is being checked</string>
+    <string name="backups_busy_other">Another backup task is running</string>
+
+    <string name="backups_back_up_now">Back up now</string>
+    <string name="backups_block_no_storage">This server has no storage for backups. Set it up on the web</string>
+    <string name="backups_block_key">Confirm the encryption key on the web before backing up</string>
+    <string name="backups_block_busy">Another backup or restore is running. Try again when it finishes</string>
+    <string name="backups_block_destination">The backup destination can\'t be reached. Check the storage on the web</string>
+    <string name="backups_start_confirm_title">Back up now?</string>
+    <string name="backups_start_confirm_message">A backup runs on the server and can take several minutes. You can leave this page while it runs</string>
+
+    <string name="backups_settings_title">Nightly backup</string>
+    <string name="backups_settings_enabled">Back up every night</string>
+    <string name="backups_settings_time">Time (24-hour, server time)</string>
+    <string name="backups_settings_time_hint">HH:MM</string>
+    <string name="backups_settings_keep">Copies to keep (1 to 60)</string>
+    <string name="backups_settings_time_note">The time is on the server\'s clock, which may not be yours</string>
+    <string name="backups_settings_save">Save changes</string>
+    <string name="backups_settings_invalid">Enter a time such as 04:00 and a number of copies from 1 to 60</string>
+    <string name="backups_settings_conflict">The backup settings changed while you were editing. Load the current values, then make your change again</string>
+    <string name="backups_settings_load_current">Load current values</string>
+    <string name="backups_settings_unavailable">The backup settings can\'t be read right now. Pull down to try again</string>
+
+    <string name="backups_settings_summary">Nightly at %1$s (server time), keeps %2$d copies</string>
+
+    <string name="backups_saved_title">Saved backups</string>
+    <string name="backups_saved_none">No saved backups</string>
+    <string name="backups_keep_note">The server keeps the newest %1$d nightly and manual backups</string>
+    <string name="backups_kind_nightly">Nightly</string>
+    <string name="backups_kind_manual">Manual</string>
+    <string name="backups_kind_before_restore">Before a restore</string>
+    <string name="backups_kind_before_upgrade">Before an upgrade</string>
+    <string name="backups_status_complete">Complete</string>
+    <string name="backups_status_warnings">Complete, some files missing</string>
+    <string name="backups_status_in_progress">Being written</string>
+    <string name="backups_status_incomplete">Incomplete</string>
+    <string name="backups_status_unverified">Not verified with this server\'s key</string>
+    <string name="backups_status_unreadable">Can\'t be read right now</string>
+    <string name="backups_encrypted">Encrypted</string>
+    <string name="backups_delete">Delete</string>
+    <string name="backups_delete_description">Delete the backup from %1$s</string>
+    <string name="backups_delete_title">Delete this backup?</string>
+    <string name="backups_delete_message">The %1$s backup from %2$s is removed from the server for good. Other backups are not affected</string>
+    <string name="backups_restore_note">Restoring a backup is done on the web</string>
+
+    <string name="backups_open_unsupported">This server does not offer backups. Update the server to manage them here</string>
+    <string name="backups_error_load">Couldn\'t load the backups</string>
+    <string name="backups_error_start">Couldn\'t start the backup</string>
+    <string name="backups_error_delete">Couldn\'t delete the backup</string>
+    <string name="backups_error_save">Couldn\'t save the backup settings</string>
+</resources>

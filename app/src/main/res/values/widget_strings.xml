@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Widgets: shared -->
+    <string name="widget_refresh">Refresh</string>
+    <string name="widget_updated_at">Updated %1$s</string>
+    <string name="widget_age_now">now</string>
+    <string name="widget_age_minutes">%1$d min</string>
+    <string name="widget_age_hours">%1$d h</string>
+    <string name="widget_age_days">%1$d d</string>
+    <string name="widget_loading">Loading</string>
+    <string name="widget_cant_reach">Can\'t reach %1$s</string>
+    <string name="widget_cant_reach_many">Can\'t reach %1$d servers</string>
+    <string name="widget_not_answering">%1$d servers not answering</string>
+    <string name="widget_details_hidden">Details are hidden</string>
+    <string name="widget_more">+%1$d more</string>
+    <string name="widget_sign_in_short">Sign in</string>
+
+    <string name="widget_requests_caption">Requests</string>
+    <string name="widget_approve">Approve</string>
+    <string name="widget_decline">Decline</string>
+    <string name="widget_waiting_short">%1$d waiting</string>
+    <string name="widget_figure_waiting">Waiting</string>
+    <string name="widget_figure_oldest">Oldest</string>
+    <string name="widget_figure_servers_up">Reachable</string>
+    <string name="widget_figure_requests">Requests</string>
+    <string name="widget_figure_libraries">Libraries</string>
+    <string name="widget_figure_scanning">Scanning</string>
+    <string name="widget_figure_warnings">Warnings</string>
+    <string name="widget_figure_nodes">Nodes</string>
+    <string name="widget_figure_attention">Need a look</string>
+    <string name="widget_none">None</string>
+    <string name="widget_status_down">%1$d down</string>
+    <string name="widget_scanning_count">%1$d scanning</string>
+    <string name="widget_libraries_count">%1$d libraries</string>
+    <string name="widget_nodes_count">%1$d nodes</string>
+    <string name="widget_requests_waiting_count">%1$d requests waiting</string>
+    <string name="widget_libraries_summary_total">%1$d libraries · %2$d scanning</string>
+    <string name="widget_nodes_summary_total">%1$d nodes · %2$d need attention</string>
+
+    <!-- Server status -->
+    <string name="widget_status_totals">%1$d of %2$d reachable · %3$d playing · %4$d requests waiting</string>
+    <plurals name="widget_requests_waiting">
+        <item quantity="one">%d request waiting</item>
+        <item quantity="other">%d requests waiting</item>
+    </plurals>
+    <plurals name="widget_streams_count">
+        <item quantity="one">%d stream</item>
+        <item quantity="other">%d streams</item>
+    </plurals>
+
+    <!-- Now playing -->
+    <string name="widget_now_playing_label">Now playing</string>
+    <string name="widget_now_playing_sign_in">Sign in to see what\'s playing</string>
+    <string name="widget_now_playing_unsupported">Now playing isn\'t available on this Silo server</string>
+    <string name="widget_now_playing_unsupported_all">Now playing isn\'t available on any of your Silo servers</string>
+    <string name="widget_now_playing_empty">Nothing playing</string>
+    <string name="widget_transcoding_count">%1$d transcoding</string>
+    <string name="widget_live_count">Live · %1$d</string>
+    <string name="widget_live">Live</string>
+    <string name="widget_time_left">%1$s left</string>
+    <string name="widget_figure_streams">Streams</string>
+    <string name="widget_figure_transcoding">Transcoding</string>
+    <string name="widget_figure_bandwidth">Bandwidth</string>
+    <string name="widget_footer_totals">%1$s · %2$s · %3$s</string>
+    <string name="widget_bandwidth_total">%1$s · %2$s</string>
+    <string name="widget_transcode">Transcode</string>
+    <string name="widget_direct">Direct</string>
+    <string name="widget_paused">Paused</string>
+
+    <!-- Requests -->
+    <string name="widget_requests_label">Requests</string>
+    <string name="widget_requests_sign_in">Sign in to see requests</string>
+    <string name="widget_requests_unsupported">Requests aren\'t available on this Silo server</string>
+    <string name="widget_requests_unsupported_all">Requests aren\'t available on any of your Silo servers</string>
+    <string name="widget_requests_empty">No requests waiting</string>
+    <string name="widget_approve_failed">Couldn\'t approve, open the app</string>
+    <string name="widget_decline_failed">Couldn\'t decline, open the app</string>
+    <string name="widget_approve_description">Approve %1$s</string>
+    <string name="widget_decline_description">Decline %1$s</string>
+
+    <!-- Libraries and scans -->
+    <string name="widget_libraries_label">Libraries</string>
+    <string name="widget_libraries_sign_in">Sign in to see libraries</string>
+    <string name="widget_libraries_unsupported">Libraries aren\'t available on this Silo server</string>
+    <string name="widget_libraries_unsupported_all">Libraries aren\'t available on any of your Silo servers</string>
+    <string name="widget_libraries_empty">No libraries yet</string>
+    <string name="widget_libraries_caption">Libraries</string>
+    <string name="widget_libraries_summary">%1$d scanning · %2$d with warnings</string>
+    <string name="widget_scan_warning">Scan warning</string>
+    <string name="widget_scan_queued">Scan queued</string>
+    <string name="widget_scan_running">Scanning</string>
+    <string name="widget_scan_refreshing">Refreshing</string>
+    <string name="widget_scan_refreshing_percent">Refreshing %1$d%%</string>
+    <string name="widget_scan_never">Never scanned</string>
+    <string name="widget_scanned_ago">Scanned %1$s ago</string>
+
+    <!-- Nodes and resources -->
+    <string name="widget_nodes_label">Nodes</string>
+    <string name="widget_nodes_sign_in">Sign in to see nodes</string>
+    <string name="widget_nodes_unsupported">Nodes aren\'t available on this Silo server</string>
+    <string name="widget_nodes_unsupported_all">Nodes aren\'t available on any of your Silo servers</string>
+    <string name="widget_nodes_empty">No nodes</string>
+    <string name="widget_nodes_caption">Nodes</string>
+    <string name="widget_nodes_attention">%1$d need attention</string>
+    <string name="widget_node_healthy">Healthy</string>
+    <string name="widget_node_draining">Draining</string>
+    <string name="widget_node_drained">Drained</string>
+    <string name="widget_node_unhealthy">Unhealthy</string>
+    <string name="widget_node_disabled">Disabled</string>
+    <string name="widget_node_no_sample">No reading</string>
+    <string name="widget_node_cpu">CPU %1$d%%</string>
+    <string name="widget_node_memory">Memory %1$d%%</string>
+    <string name="widget_node_disk">Disk %1$d%%</string>
+
+    <!-- The widget picker -->
+    <string name="widget_now_playing_picker">Now playing</string>
+    <string name="widget_now_playing_description">Bloem Admin: streams playing now, who watches what and how it is delivered</string>
+    <string name="widget_requests_picker">Requests</string>
+    <string name="widget_requests_description">Bloem Admin: requests waiting for approval, with Approve and Decline</string>
+    <string name="widget_libraries_picker">Libraries and scans</string>
+    <string name="widget_libraries_description">Bloem Admin: each library\'s last scan, warnings and a scan under way</string>
+    <string name="widget_nodes_picker">Nodes and resources</string>
+    <string name="widget_nodes_description">Bloem Admin: each node\'s state, CPU, memory and disk</string>
+    <string name="widget_choose_hint_status">The widget shows each server\'s name, whether it answers, streams playing and requests waiting</string>
+    <string name="widget_choose_hint_detail">Pick one server or All servers. On the lock screen the widget shows counts only, unless Show details on lock screen is on</string>
+
+    <!-- Quick Settings tile: Requests waiting -->
+    <string name="tile_requests_label">Requests</string>
+    <string name="tile_requests_none">None waiting</string>
+    <plurals name="tile_requests_waiting">
+        <item quantity="one">%d waiting</item>
+        <item quantity="other">%d waiting</item>
+    </plurals>
+
+    <!-- Ongoing progress notification: a library scan or a backup started from the app -->
+    <string name="job_channel_name">Scans and backups</string>
+    <string name="job_channel_description">Shows the progress of a library scan or a backup you started in the app</string>
+    <string name="job_a_library">a library</string>
+    <string name="job_scan_running">Scanning %1$s</string>
+    <string name="job_scan_done">Scanned %1$s</string>
+    <string name="job_scan_failed">Scan of %1$s failed</string>
+    <string name="job_backup_running">Backing up %1$s</string>
+    <string name="job_backup_done">Backed up %1$s</string>
+    <string name="job_backup_failed">Backup of %1$s failed</string>
+    <string name="job_progress_on">%1$d%% · %2$s</string>
+    <string name="job_public_scan_running">Library scan running</string>
+    <string name="job_public_scan_done">Library scan finished</string>
+    <string name="job_public_scan_failed">Library scan failed</string>
+    <string name="job_public_backup_running">Backup running</string>
+    <string name="job_public_backup_done">Backup finished</string>
+    <string name="job_public_backup_failed">Backup failed</string>
+    <string name="job_tap_to_open">Tap to open the server</string>
+</resources>

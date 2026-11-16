@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Organization mode, second pass: bulk people actions, person detail, access group editing, giving a library back,
+     cohort and decision detail, and why access was lost. Names follow the web admin (bloem/locales/en.admin.json). -->
+<resources>
+    <!-- Why access ended -->
+    <string name="organization_suspended">This organization is suspended. Contact the server owner.</string>
+    <string name="organization_lost_authority">You no longer administer this organization</string>
+    <string name="organization_changed_conflict">Someone else changed this just now. It has been reloaded; check it and try again.</string>
+
+    <!-- Failures -->
+    <string name="organization_error_selection">The selection couldn\'t be made. Try again.</string>
+    <string name="organization_error_bulk_start">The change couldn\'t be started. Nothing was changed; check the list before trying again.</string>
+    <string name="organization_error_bulk_progress">The progress couldn\'t be checked. The change may still be running.</string>
+    <string name="organization_selection_expired">That selection expired. Select the people again.</string>
+    <string name="organization_error_person">This person couldn\'t be loaded</string>
+    <string name="organization_error_group_name">Enter a name for the group</string>
+    <string name="organization_error_group_save">The group couldn\'t be saved. Check it before trying again.</string>
+    <string name="organization_error_group_delete">The group couldn\'t be deleted. Check the list before trying again.</string>
+    <string name="organization_error_group_refused">The server refused that change. A group managed by a plan can only be changed there, and the default group can\'t be deleted.</string>
+    <string name="organization_error_decision_detail">This check couldn\'t be loaded</string>
+
+    <!-- Notices -->
+    <string name="organization_notice_group_created">Group created</string>
+    <string name="organization_notice_group_saved">Group saved</string>
+    <string name="organization_notice_group_deleted">Group deleted</string>
+    <string name="organization_notice_library_paused">Library paused. Members can\'t use it until you restore it.</string>
+    <string name="organization_notice_library_restored">Library restored</string>
+    <string name="organization_notice_library_given_back">Library given back</string>
+
+    <!-- Why one account in a bulk change was skipped or failed (the web\'s words) -->
+    <string name="organization_reason_already_applied">already had these settings</string>
+    <string name="organization_reason_no_profiles">has no profiles</string>
+    <string name="organization_reason_not_found">no longer exists</string>
+    <string name="organization_reason_protected_owner">is the organization owner and can\'t be changed here</string>
+    <string name="organization_reason_mutation_failed">couldn\'t be saved</string>
+    <string name="organization_reason_authorization_changed">changed while this ran</string>
+    <string name="organization_reason_actor_authority">skipped so you keep your own admin access</string>
+    <string name="organization_reason_stale">changed after you chose</string>
+    <string name="organization_reason_not_suspended">isn\'t suspended</string>
+
+    <!-- Bulk result headings -->
+    <string name="organization_bulk_queued">Waiting to start</string>
+    <string name="organization_bulk_running">Changing people…</string>
+    <string name="organization_bulk_completed">Done</string>
+    <string name="organization_bulk_failed">Stopped</string>
+    <string name="organization_bulk_cancelled">Cancelled</string>
+    <string name="organization_bulk_some_changed">Some people were changed</string>
+    <string name="organization_bulk_nothing_changed">Nobody was changed</string>
+    <string name="organization_bulk_still_running">This is taking a while. It keeps running on the server; open People again to see the result.</string>
+
+    <!-- Access checks: what was asked, and why it was refused -->
+    <string name="organization_action_permission_check">Permission check</string>
+    <string name="organization_action_library_check">Library access check</string>
+    <string name="organization_action_playback_check">Playback or download check</string>
+    <string name="organization_action_check">Check</string>
+    <string name="organization_action_start_playback">Start playback</string>
+    <string name="organization_action_play">Play</string>
+    <string name="organization_action_convert_video">Convert video</string>
+    <string name="organization_action_convert_audio">Convert audio</string>
+    <string name="organization_action_download">Download</string>
+    <string name="organization_action_download_converted">Download a converted copy</string>
+    <string name="organization_access_reason_none">No reason recorded</string>
+    <string name="organization_access_reason_custom_denial">A custom rule refused it</string>
+    <string name="organization_access_reason_unknown_permission">The permission isn\'t known</string>
+    <string name="organization_access_reason_user_disabled">The account is disabled</string>
+    <string name="organization_access_reason_admin_role">Only administrators can do this</string>
+    <string name="organization_access_reason_primary_profile">Only the household\'s main profile can do this</string>
+    <string name="organization_access_reason_marker_edit">Needs permission to edit intro and credits markers</string>
+    <string name="organization_access_reason_metadata">Needs permission to edit metadata</string>
+    <string name="organization_access_reason_outside_libraries">The title is in a library they can\'t use</string>
+    <string name="organization_access_reason_unknown_action">The action isn\'t known</string>
+    <string name="organization_access_reason_downloads_disabled">Downloads are switched off on this server</string>
+    <string name="organization_access_reason_download_not_allowed">Their settings don\'t allow downloads</string>
+    <string name="organization_access_reason_video_conversion_off">Video conversion is switched off</string>
+    <string name="organization_access_reason_audio_conversion_off">Audio conversion is switched off</string>
+    <string name="organization_access_reason_converted_download_not_allowed">Their settings don\'t allow converted downloads</string>
+    <string name="organization_access_reason_no_downloadable_copy">No downloadable copy is ready yet</string>
+    <string name="organization_access_reason_quality">Above their best allowed picture quality</string>
+    <string name="organization_access_reason_content_rating">Above the profile\'s age rating</string>
+    <string name="organization_access_reason_max_streams">Every screen they\'re allowed was already in use</string>
+    <string name="organization_access_reason_max_transcodes">Every conversion they\'re allowed was already in use</string>
+
+    <!-- How a cohort was made; picture quality; permissions -->
+    <string name="organization_derivation_exact_template">From a plan</string>
+    <string name="organization_derivation_policy_patch">Changed from another cohort</string>
+    <string name="organization_derivation_managed_default">Organization default</string>
+    <string name="organization_quality_any">Any quality</string>
+    <string name="organization_quality_original">Original quality</string>
+    <string name="organization_quality_1080">Up to 1080p</string>
+    <string name="organization_quality_4k">Up to 4K</string>
+    <string name="organization_permission_live_tv">Watch live TV</string>
+    <string name="organization_permission_metadata">Edit metadata</string>
+    <string name="organization_permission_markers">Edit intro and credits markers</string>
+    <!-- People: sort, recent activity, picking people, bulk changes -->
+    <string name="organization_this_organization">this organization</string>
+    <string name="organization_people_no_matches">Nobody matches these filters</string>
+    <string name="organization_people_sort">Sort people</string>
+    <string name="organization_people_sort_name">Name</string>
+    <string name="organization_people_sort_email">Email</string>
+    <string name="organization_people_sort_recent">Recent activity</string>
+    <string name="organization_people_active_since">Active since</string>
+    <string name="organization_people_any_time">Any time</string>
+    <string name="organization_people_active_last_day">Last 24 hours</string>
+    <string name="organization_people_active_last_days">Last %1$d days</string>
+    <string name="organization_people_select">Select people</string>
+    <string name="organization_people_done_selecting">Done selecting</string>
+    <string name="organization_people_select_all">Select all %1$d</string>
+    <string name="organization_people_selecting">Selecting…</string>
+    <string name="organization_people_select_person">Select %1$s</string>
+    <string name="organization_people_details">Details</string>
+    <string name="organization_people_details_for">Details for %1$s</string>
+    <string name="organization_people_bulk_actions">Bulk people actions</string>
+    <string name="organization_people_bulk_move">Move to access group</string>
+    <string name="organization_people_bulk_move_title">Move their profiles to an access group</string>
+    <string name="organization_people_apply">Apply</string>
+    <string name="organization_people_confirm_move">Move their profiles to %1$s?</string>
+    <string name="organization_people_confirm_reactivate">Reactivate their memberships?</string>
+    <string name="organization_people_confirm_suspend">Suspend their memberships?</string>
+    <string name="organization_people_confirm_matching">This changes %1$s in %2$s (%3$s). People who match later aren\'t included.</string>
+    <string name="organization_people_confirm_left_out">%1$d more match but are left out</string>
+    <string name="organization_people_confirm_picked">This changes the %1$s you picked in %2$s, one after another</string>
+    <string name="organization_people_filter_matching">matching “%1$s”</string>
+    <string name="organization_people_filter_in_group">in %1$s</string>
+    <string name="organization_people_filter_active">active in the last %1$d days</string>
+    <string name="organization_people_filter_everyone">everyone</string>
+    <string name="organization_people_group_hash">#%1$d</string>
+
+    <!-- Bulk result -->
+    <string name="organization_bulk_progress">%1$d of %2$d done</string>
+    <string name="organization_bulk_changed">%1$d changed</string>
+    <string name="organization_bulk_skipped">%1$d skipped</string>
+    <string name="organization_bulk_failed_count">%1$d failed</string>
+    <string name="organization_bulk_skipped_heading">Skipped</string>
+    <string name="organization_bulk_failed_heading">Failed</string>
+    <string name="organization_bulk_account">Account %1$d</string>
+    <string name="organization_bulk_record">%1$s: %2$s</string>
+
+    <!-- One person -->
+    <string name="organization_person_title">Person</string>
+    <string name="organization_person_back">Back to people</string>
+    <string name="organization_person_gone">This person isn\'t in this organization any more</string>
+    <string name="organization_person_membership">Membership</string>
+    <string name="organization_person_no_activity">No activity yet</string>
+    <string name="organization_person_account">Account %1$d · revision %2$d</string>
+    <string name="organization_person_profiles">Profiles and access groups</string>
+    <string name="organization_person_no_profiles">No profiles</string>
+    <string name="organization_person_in_group">Access group: %1$s</string>
+    <string name="organization_person_profile_updated">Changed %1$s</string>
+    <string name="organization_person_changes">Recent changes</string>
+    <string name="organization_person_changes_among">Changes to this membership among the latest %1$d on the organization</string>
+    <string name="organization_person_changes_none">No changes to this membership among the latest %1$d on the organization</string>
+    <string name="organization_person_changes_unavailable">The organization\'s activity couldn\'t be loaded, so recent changes can\'t be shown</string>
+    <string name="organization_person_limits_title">What you can\'t do here</string>
+    <string name="organization_person_limits_body">Organization administrators can suspend or reactivate a membership and move a profile to an access group. Resetting a password, signing someone out and editing a profile aren\'t available to organization administrators; ask the server owner.</string>
+
+    <!-- Policy rows (the web\'s words) -->
+    <string name="organization_policy_yes">Yes</string>
+    <string name="organization_policy_no">No</string>
+    <string name="organization_policy_no_limit">No limit</string>
+    <string name="organization_policy_none">None</string>
+    <string name="organization_policy_all_libraries">All libraries</string>
+    <string name="organization_policy_all_permissions">All permissions</string>
+    <string name="organization_policy_library_number">Library %1$d</string>
+    <string name="organization_policy_libraries">Libraries</string>
+    <string name="organization_policy_plays_video">Plays video</string>
+    <string name="organization_policy_screens_at_once">Screens at once</string>
+    <string name="organization_policy_profiles">Profiles</string>
+    <string name="organization_policy_video_conversion">Video conversion</string>
+    <string name="organization_policy_audio_conversion">Audio conversion</string>
+    <string name="organization_policy_conversions_at_once">Conversions at once</string>
+    <string name="organization_policy_download_originals">Download original files</string>
+    <string name="organization_policy_download_converted">Download converted copies</string>
+    <string name="organization_policy_best_quality">Best picture quality</string>
+    <string name="organization_policy_media_requests">Media requests</string>
+    <string name="organization_policy_extra_permissions">Extra permissions</string>
+
+    <!-- Access groups: list and editor -->
+    <string name="organization_groups_new">New group</string>
+    <string name="organization_groups_new_name">New group name</string>
+    <string name="organization_groups_new_placeholder">Group name (for example Kids, Guests)</string>
+    <string name="organization_groups_create">Create</string>
+    <string name="organization_groups_edit">Edit</string>
+    <string name="organization_groups_edit_group">Edit %1$s</string>
+    <string name="organization_groups_all_groups">All groups</string>
+    <string name="organization_groups_field_name">Name</string>
+    <string name="organization_groups_field_description">Description</string>
+    <string name="organization_groups_optional">Optional</string>
+    <string name="organization_groups_default_for_new">Default for new users</string>
+    <string name="organization_groups_default_for_new_help">Newly created accounts are placed in this group automatically. Existing users are never moved.</string>
+    <string name="organization_groups_default_for_new_is">Newly created accounts are placed in this group automatically. To change this, make another group the default.</string>
+    <string name="organization_groups_libraries_playback">Libraries &amp; playback</string>
+    <string name="organization_groups_libraries_scope">A group can use only libraries the organization can use. A paused or withdrawn shared library can\'t be given to a group.</string>
+    <string name="organization_groups_all_libraries">Every library the organization can use</string>
+    <string name="organization_groups_chosen_libraries">Only the libraries I choose</string>
+    <string name="organization_groups_library_unavailable">%1$s (paused or withdrawn)</string>
+    <string name="organization_groups_downloads_requests">Downloads &amp; requests</string>
+    <string name="organization_groups_download_originals_help">Save the file as it is, for watching offline</string>
+    <string name="organization_groups_download_converted_help">Save a smaller copy made for the device, where the app supports it</string>
+    <string name="organization_groups_requests_help">Ask for movies and shows the server doesn\'t have yet</string>
+    <string name="organization_groups_concurrent">Concurrent streams</string>
+    <string name="organization_groups_zero_unlimited">0 = unlimited</string>
+    <string name="organization_groups_video_conversion_help">Convert a video when the device can\'t play the file as it is</string>
+    <string name="organization_groups_audio_conversion_help">Convert only the sound when the device can\'t play it</string>
+    <string name="organization_groups_permissions">Permissions</string>
+    <string name="organization_groups_permissions_help">A member also needs the permission granted on their own account</string>
+    <string name="organization_groups_allow_every_permission">Allow every permission</string>
+    <string name="organization_groups_save">Save changes</string>
+    <string name="organization_groups_saving">Saving…</string>
+    <string name="organization_groups_delete">Delete group</string>
+    <string name="organization_groups_default_cannot_delete">The default group can\'t be deleted. Make another group the default first.</string>
+    <string name="organization_groups_delete_title">Delete “%1$s”?</string>
+    <string name="organization_groups_delete_no_profiles">This group has no profiles in %1$s. This can\'t be undone.</string>
+    <string name="organization_groups_delete_confirm">Delete</string>
+    <string name="organization_groups_the_default_group">the default group</string>
+
+    <!-- Libraries: ceiling and giving back -->
+    <string name="organization_libraries_ceiling_title">Most your members can reach</string>
+    <string name="organization_libraries_ceiling_owned">%1$d owned</string>
+    <string name="organization_libraries_ceiling_shared">%1$d shared and active</string>
+    <string name="organization_libraries_ceiling_paused">%1$d paused</string>
+    <string name="organization_libraries_ceiling_withdrawn">%1$d withdrawn</string>
+    <string name="organization_libraries_owned_note">Always available to this organization\'s members</string>
+    <string name="organization_libraries_give_back">Give back</string>
+    <string name="organization_libraries_give_back_title">Give back %1$s?</string>
+    <string name="organization_libraries_give_back_body">Members lose this library for good. Only a platform administrator can share it again. No files are deleted.</string>
+
+    <!-- Cohorts -->
+    <string name="organization_cohorts_card_label">%1$s revision %2$d</string>
+    <string name="organization_cohorts_from_plan_revision">From plan %1$s, revision %2$d</string>
+    <string name="organization_cohorts_settings">Settings</string>
+    <string name="organization_cohorts_details">Details</string>
+    <string name="organization_cohorts_hide_details">Hide details</string>
+    <string name="organization_cohorts_how_made">How it was made</string>
+    <string name="organization_cohorts_cohort_revision">Cohort revision</string>
+    <string name="organization_cohorts_started_from">Started from cohort</string>
+    <string name="organization_cohorts_created">Created</string>
+    <string name="organization_cohorts_created_by">Created by</string>
+    <string name="organization_cohorts_access_group">Access group</string>
+    <string name="organization_cohorts_cohort_id">Cohort ID</string>
+    <string name="organization_cohorts_fingerprint">Settings fingerprint</string>
+    <string name="organization_cohorts_archived_count">Archived cohorts (%1$d)</string>
+    <string name="organization_cohorts_archived_note">Kept for the record. Nobody can be moved to an archived cohort.</string>
+
+    <!-- Decisions: detail -->
+    <string name="organization_decisions_see_why">See why</string>
+    <string name="organization_decisions_open">%1$s: see why</string>
+    <string name="organization_decisions_detail_title">Access check</string>
+    <string name="organization_decisions_back">Back to checks</string>
+    <string name="organization_decisions_who">Who</string>
+    <string name="organization_decisions_with_profile">%1$s · Profile %2$s</string>
+    <string name="organization_decisions_access_group">Access group</string>
+    <string name="organization_decisions_group_number">Group %1$d</string>
+    <string name="organization_decisions_libraries">Libraries they could use</string>
+    <string name="organization_decisions_requested">What they asked for</string>
+    <string name="organization_decisions_hidden">Sensitive value hidden</string>
+    <string name="organization_decisions_check">Check</string>
+    <string name="organization_decisions_reason_code">Reason code</string>
+    <string name="organization_decisions_organization_id">Organization ID</string>
+    <string name="organization_decisions_membership_id">Membership ID</string>
+    <string name="organization_decisions_access_group_id">Access group ID</string>
+    <string name="organization_decisions_rules_checked">Rules checked</string>
+    <string name="organization_decisions_rule">%1$s version %2$d</string>
+    <string name="organization_decisions_rule_named">%1$s %2$s version %3$d</string>
+    <string name="organization_decisions_none_recorded">None recorded</string>
+
+    <plurals name="organization_people_count">
+        <item quantity="one">%1$d person</item>
+        <item quantity="other">%1$d people</item>
+    </plurals>
+    <plurals name="organization_people_selected">
+        <item quantity="one">%1$d person selected</item>
+        <item quantity="other">%1$d people selected</item>
+    </plurals>
+    <plurals name="organization_policy_screens">
+        <item quantity="one">%1$d screen</item>
+        <item quantity="other">%1$d screens</item>
+    </plurals>
+    <plurals name="organization_policy_profiles">
+        <item quantity="one">%1$d profile</item>
+        <item quantity="other">%1$d profiles</item>
+    </plurals>
+    <plurals name="organization_policy_conversions">
+        <item quantity="one">%1$d conversion</item>
+        <item quantity="other">%1$d conversions</item>
+    </plurals>
+    <plurals name="organization_libraries_usable">
+        <item quantity="one">%1$d library members can use now</item>
+        <item quantity="other">%1$d libraries members can use now</item>
+    </plurals>
+    <plurals name="organization_groups_reassigned">
+        <item quantity="one">%1$d profile moved to the default group</item>
+        <item quantity="other">%1$d profiles moved to the default group</item>
+    </plurals>
+    <plurals name="organization_groups_delete_reassign">
+        <item quantity="one">%1$d profile in %2$s will be reassigned to %3$s, this organization\'s default group. Their own restrictions are unchanged.</item>
+        <item quantity="other">%1$d profiles in %2$s will be reassigned to %3$s, this organization\'s default group. Their own restrictions are unchanged.</item>
+    </plurals>
+</resources>

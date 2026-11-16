@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Scheduled tasks: the row, the task page and the schedule editor. -->
+<resources>
+    <!-- Durations and spans -->
+    <string name="duration_under_ms">under 1 ms</string>
+    <string name="duration_ms">%1$d ms</string>
+    <string name="duration_s">%1$d s</string>
+    <string name="duration_min_s">%1$d min %2$d s</string>
+    <string name="duration_hr_min">%1$d hr %2$d min</string>
+    <string name="elapsed_in_less_than_minute">in under a minute</string>
+    <string name="elapsed_in_minutes">in %1$d min</string>
+    <string name="elapsed_in_hours">in %1$d hr</string>
+    <plurals name="elapsed_in_days">
+        <item quantity="one">in %1$d day</item>
+        <item quantity="other">in %1$d days</item>
+    </plurals>
+    <string name="elapsed_ago_less_than_minute">just now</string>
+    <string name="elapsed_ago_minutes">%1$d min ago</string>
+    <string name="elapsed_ago_hours">%1$d hr ago</string>
+    <plurals name="elapsed_ago_days">
+        <item quantity="one">%1$d day ago</item>
+        <item quantity="other">%1$d days ago</item>
+    </plurals>
+
+    <!-- Task row -->
+    <string name="jobs_last_run_line">%1$s · %2$s · %3$s</string>
+    <string name="jobs_last_run_line_no_duration">%1$s · %2$s</string>
+    <string name="jobs_never_run">Never run</string>
+    <string name="jobs_next_run">Next run %1$s</string>
+    <string name="jobs_overdue">Overdue</string>
+    <string name="jobs_running_percent">Running · %1$s</string>
+    <string name="jobs_running">Running</string>
+    <string name="jobs_stopping">Stopping</string>
+    <string name="jobs_progress_description">Progress of %1$s</string>
+    <string name="jobs_run_now">Run now</string>
+    <string name="jobs_stop">Stop</string>
+    <string name="jobs_open_task">Task page</string>
+    <string name="jobs_stop_confirm_title">Stop %1$s?</string>
+    <string name="jobs_stop_confirm_message">Work already done stays done. The task stops at its next safe point.</string>
+    <string name="jobs_stop_confirm_action">Stop task</string>
+    <string name="jobs_stop_confirm_keep">Keep running</string>
+
+    <!-- Task page -->
+    <string name="jobs_page_back">Back to scheduled tasks</string>
+    <string name="jobs_page_category">Category: %1$s</string>
+    <string name="jobs_category_library">Library</string>
+    <string name="jobs_category_metadata">Metadata</string>
+    <string name="jobs_category_system">System</string>
+    <string name="jobs_page_schedule">Schedule</string>
+    <string name="jobs_page_schedule_none">No schedule. This task runs when you start it</string>
+    <string name="jobs_page_schedule_edit">Edit schedule</string>
+    <string name="jobs_page_schedule_server_time">Times are the server\'s local time</string>
+    <string name="jobs_page_schedule_on_backups">The time is set on the Backups page</string>
+    <string name="jobs_page_schedule_manual">This task has no schedule. Run it when you need it</string>
+    <string name="jobs_page_open_backups">Open Backups</string>
+    <string name="jobs_page_runs">Recent runs</string>
+    <string name="jobs_page_runs_none">No runs yet</string>
+    <string name="jobs_page_runs_load_older">Load older runs</string>
+    <string name="jobs_page_runs_load_failed">Couldn\'t load the runs</string>
+    <string name="jobs_page_run_error">Error: %1$s</string>
+    <string name="jobs_page_run_failed_steps">Failed steps: %1$s</string>
+    <string name="jobs_page_run_started">Started %1$s</string>
+    <string name="jobs_page_not_found">This task no longer exists on the server</string>
+
+    <!-- Schedule editor -->
+    <string name="jobs_editor_title">Schedule: %1$s</string>
+    <string name="jobs_editor_add">Add a trigger</string>
+    <string name="jobs_editor_remove">Remove trigger %1$d</string>
+    <string name="jobs_editor_trigger_number">Trigger %1$d</string>
+    <string name="jobs_editor_type">Type</string>
+    <string name="jobs_editor_type_interval">Every</string>
+    <string name="jobs_editor_type_daily">Daily</string>
+    <string name="jobs_editor_type_weekly">Weekly</string>
+    <string name="jobs_editor_type_startup">At startup</string>
+    <string name="jobs_editor_interval_value">Number</string>
+    <string name="jobs_editor_unit">Unit</string>
+    <string name="jobs_editor_unit_seconds">Seconds</string>
+    <string name="jobs_editor_unit_minutes">Minutes</string>
+    <string name="jobs_editor_unit_hours">Hours</string>
+    <string name="jobs_editor_time">Time (24-hour)</string>
+    <string name="jobs_editor_time_hint">HH:MM</string>
+    <string name="jobs_editor_day">Day</string>
+    <string name="jobs_editor_max_runtime">Maximum runtime (minutes)</string>
+    <string name="jobs_editor_max_runtime_hint">No limit</string>
+    <string name="jobs_editor_unknown">%1$s trigger, kept as it is</string>
+    <string name="jobs_editor_invalid">Check the highlighted triggers. Times need HH:MM, and numbers must be above zero</string>
+    <string name="jobs_editor_scope">Changes apply to this server now. Other servers in a cluster pick them up when they restart. A maximum runtime stops a run that goes past it</string>
+</resources>

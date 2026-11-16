@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The request queue, worded as the web admin words it (web.admin.requests.* and web.requests.status.*). -->
+<resources>
+    <string name="requests_views_label">Request views</string>
+    <string name="requests_view_needs_approval">Needs approval</string>
+    <string name="requests_view_in_progress">In progress</string>
+    <string name="requests_view_failed">Failed</string>
+    <string name="requests_view_done">Done</string>
+    <string name="requests_view_needs_approval_empty">Nothing is waiting for approval</string>
+    <string name="requests_view_in_progress_empty">Nothing is on its way to the library</string>
+    <string name="requests_view_failed_empty">No request has failed</string>
+    <string name="requests_view_done_empty">No request has finished yet</string>
+    <string name="requests_view_count_description">%1$s, %2$d requests</string>
+
+    <string name="requests_cancel_request">Cancel request</string>
+    <string name="requests_action_for">%1$s: %2$s</string>
+    <string name="requests_busy">Working…</string>
+
+    <string name="requests_state_pending">Pending</string>
+    <string name="requests_state_approved">Approved</string>
+    <string name="requests_state_processing">Processing</string>
+    <string name="requests_state_partially_available">Partially available</string>
+    <string name="requests_state_available">Available</string>
+    <string name="requests_state_declined">Declined</string>
+    <string name="requests_state_cancelled">Cancelled</string>
+    <string name="requests_state_failed">Failed</string>
+
+    <string name="requests_media_all">All</string>
+    <string name="requests_media_movies">Movies</string>
+    <string name="requests_media_series">Series</string>
+    <string name="requests_media_type_movie">Movie</string>
+    <string name="requests_media_type_series">Series</string>
+    <string name="requests_season">Season %1$s</string>
+    <string name="requests_seasons">Seasons %1$s</string>
+
+    <string name="requests_search_label">Search requests</string>
+    <string name="requests_search_placeholder">Search by title or TMDB ID</string>
+    <string name="requests_search_clear">Clear search</string>
+    <string name="requests_filter_by_user">Show only this account\'s requests</string>
+    <string name="requests_requested_by_filter">Requested by %1$s</string>
+    <string name="requests_clear_user_filter">Show requests from every account</string>
+    <string name="requests_row_actions_description">More about %1$s</string>
+    <string name="requests_row_details_hint">Shows the request\'s details</string>
+
+    <string name="requests_unknown_account">Unknown account</string>
+    <string name="requests_user_number">User %1$s</string>
+    <string name="requests_just_now">Just now</string>
+    <string name="requests_via_watchlist">via watchlist</string>
+
+    <string name="requests_load_failed_title">Requests failed</string>
+    <string name="requests_load_failed_detail">The queue couldn\'t be loaded</string>
+    <string name="requests_no_matches_title">No matching requests</string>
+    <string name="requests_no_matches_detail">No request in this view matches the filters</string>
+    <string name="requests_all_clear">All clear</string>
+    <string name="requests_load_more">Load more</string>
+    <string name="requests_more_failed">More requests couldn\'t be loaded</string>
+
+    <string name="requests_not_sent">Not sent to a server</string>
+    <string name="requests_by_route">by %1$s</string>
+    <string name="requests_unknown_server">Unknown server</string>
+    <string name="requests_target_requested">Requested</string>
+    <string name="requests_target_queued">Queued</string>
+    <string name="requests_target_downloading">Downloading</string>
+    <string name="requests_target_completed">Completed</string>
+    <string name="requests_download_queued">Waiting to download</string>
+    <string name="requests_download_paused">Download paused</string>
+    <string name="requests_download_stalled">Download stalled</string>
+    <string name="requests_download_importing">Importing</string>
+    <string name="requests_download_import_blocked">Import blocked</string>
+    <string name="requests_download_progress">%1$s · %2$d%%</string>
+
+    <string name="requests_reason_decline_title">Decline request</string>
+    <string name="requests_reason_decline_message">\"%1$s\" will be marked declined. Add an optional note for the requester.</string>
+    <string name="requests_reason_close_title">Close request</string>
+    <string name="requests_reason_close_message">\"%1$s\" failed. Closing it moves it to Done, and nothing more is sent for it. Add an optional note.</string>
+    <string name="requests_reason_cancel_message">\"%1$s\" will be withdrawn before anything is sent for it. Add an optional note.</string>
+    <string name="requests_reason_label">Reason (optional)</string>
+    <string name="requests_reason_placeholder">e.g. duplicate of an existing request</string>
+    <string name="requests_reason_keep">Keep request</string>
+
+    <string name="requests_event_created">Requested</string>
+    <string name="requests_event_queued">Sent to the server</string>
+    <string name="requests_event_downloaded">Downloaded</string>
+    <string name="requests_event_in_library">In the library</string>
+    <string name="requests_event_retried">Retried</string>
+    <string name="requests_event_deferred">Couldn\'t send yet</string>
+
+    <string name="requests_detail_back">Back to requests</string>
+    <string name="requests_detail_request">Request</string>
+    <string name="requests_detail_state">State</string>
+    <string name="requests_detail_requested_by">Requested by</string>
+    <string name="requests_detail_requested">Requested</string>
+    <string name="requests_detail_approved">Approved</string>
+    <string name="requests_detail_completed">Completed</string>
+    <string name="requests_detail_seasons">Seasons</string>
+    <string name="requests_detail_whole_series">Whole series</string>
+    <string name="requests_detail_tmdb_id">TMDB ID</string>
+    <string name="requests_detail_servers">Servers</string>
+    <string name="requests_detail_history">History</string>
+    <string name="requests_detail_history_failed">The history couldn\'t be loaded</string>
+    <string name="requests_detail_history_empty">No history yet</string>
+    <string name="requests_detail_actor">by %1$s</string>
+</resources>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Number tiles: the web dashboard's names. Movies, Shows, Storage and Active streams are in strings.xml. -->
+    <string name="dashboard_tile_egress_now">Egress now</string>
+    <string name="dashboard_tile_profiles_24h">Profiles · 24h</string>
+    <string name="dashboard_tile_egress_detail">node + server egress</string>
+    <string name="dashboard_tile_profiles_detail">watched on this server</string>
+    <plurals name="dashboard_tile_sessions">
+        <item quantity="one">%1$d session</item>
+        <item quantity="other">%1$d sessions</item>
+    </plurals>
+    <plurals name="dashboard_tile_files">
+        <item quantity="one">%1$d file</item>
+        <item quantity="other">%1$d files</item>
+    </plurals>
+    <string name="dashboard_tile_description">%1$s: %2$s, %3$s</string>
+
+    <!-- Server health -->
+    <string name="dashboard_health_version">Version</string>
+    <string name="dashboard_health_uptime">Uptime</string>
+    <string name="dashboard_health_postgres">Postgres</string>
+    <string name="dashboard_health_redis">Redis</string>
+    <string name="dashboard_health_nodes">Nodes</string>
+    <string name="dashboard_health_errors">Errors · 24h</string>
+    <string name="dashboard_health_ok">OK</string>
+    <string name="dashboard_health_unreachable">Unreachable</string>
+    <string name="dashboard_health_not_configured">Not configured</string>
+    <string name="dashboard_health_nodes_none">none</string>
+    <string name="dashboard_health_nodes_ratio">%1$d/%2$d</string>
+    <string name="dashboard_health_version_build">%1$d · %2$s</string>
+    <string name="dashboard_health_dirty">dirty build</string>
+    <string name="dashboard_health_restart_required">restart required</string>
+    <plurals name="dashboard_health_warnings">
+        <item quantity="one">%1$d warning</item>
+        <item quantity="other">%1$d warnings</item>
+    </plurals>
+    <string name="dashboard_health_cell_description">%1$s: %2$s</string>
+
+    <!-- Section titles: the web's widget titles -->
+    <string name="dashboard_now_playing_title">Now playing</string>
+    <string name="dashboard_now_playing_idle">Nothing playing right now</string>
+    <plurals name="dashboard_now_playing_more">
+        <item quantity="one">+%1$d more active stream</item>
+        <item quantity="other">+%1$d more active streams</item>
+    </plurals>
+    <string name="dashboard_playback_activity_title">Playback activity</string>
+    <string name="dashboard_egress_title">Egress</string>
+    <string name="dashboard_top_titles_title">Top titles</string>
+    <string name="dashboard_top_profiles_title">Most active profiles</string>
+    <string name="dashboard_libraries_title">Libraries</string>
+    <string name="dashboard_users_title">Users</string>
+    <string name="dashboard_recent_activity_title">Recent activity</string>
+    <string name="dashboard_range_7d">Last 7 days</string>
+    <string name="dashboard_section_unavailable">Unavailable</string>
+
+    <!-- Section bodies -->
+    <string name="dashboard_playback_completion">%1$d%% completed</string>
+    <string name="dashboard_top_empty">Nothing played in the last 7 days</string>
+    <plurals name="dashboard_top_row_plays">
+        <item quantity="one">%1$d play · %2$s</item>
+        <item quantity="other">%1$d plays · %2$s</item>
+    </plurals>
+    <string name="dashboard_libraries_empty">No libraries configured</string>
+    <plurals name="dashboard_library_row">
+        <item quantity="one">%2$s · %1$d path</item>
+        <item quantity="other">%2$s · %1$d paths</item>
+    </plurals>
+    <string name="dashboard_library_disabled">Disabled</string>
+    <string name="dashboard_users_empty">No users</string>
+    <string name="dashboard_user_disabled">Disabled</string>
+    <string name="dashboard_user_never_active">No activity yet</string>
+    <string name="dashboard_user_row">%1$s · %2$s</string>
+    <string name="dashboard_recent_empty">No recent activity</string>
+    <string name="dashboard_section_manage_users">Manage users</string>
+    <plurals name="dashboard_rollup_streams">
+        <item quantity="one">%1$s stream</item>
+        <item quantity="other">%1$s streams</item>
+    </plurals>
+    <plurals name="dashboard_rollup_errors">
+        <item quantity="one">%1$s error in 24h</item>
+        <item quantity="other">%1$s errors in 24h</item>
+    </plurals>
+</resources>

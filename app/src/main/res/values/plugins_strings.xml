@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Plugins: the page under Configure. The catalogue, repositories and plugin settings stay on the web. -->
+<resources>
+    <string name="tab_plugins">Plugins</string>
+    <string name="shell_page_plugins">Plugin catalog, repositories, installs, and plugin configuration</string>
+
+    <string name="plugins_none">No plugins are installed on this server</string>
+    <string name="plugins_none_filtered">No plugins match this filter</string>
+    <string name="plugins_web_note">Installing plugins and changing their settings is done on the web</string>
+    <string name="plugins_filter_all">All %1$d</string>
+    <string name="plugins_filter_attention">Needs attention %1$d</string>
+    <string name="plugins_filter_update">Updates %1$d</string>
+    <string name="plugins_filter_off">Off %1$d</string>
+
+    <string name="plugins_state_running">Running</string>
+    <string name="plugins_state_starting">Starting</string>
+    <string name="plugins_state_stopped">Stopped</string>
+    <string name="plugins_state_restarting">Restarting after a failure</string>
+    <string name="plugins_state_failed">Failed</string>
+    <string name="plugins_state_off">Off</string>
+    <string name="plugins_version">Version %1$s</string>
+    <string name="plugins_last_error">Last error: %1$s</string>
+    <string name="plugins_update_available">Update available: %1$s</string>
+    <string name="plugins_update_failed">The update to %1$s was refused: %2$s</string>
+    <string name="plugins_updates_paused">Updates are paused while its repository is off</string>
+    <string name="plugins_signature_invalid">The release signature did not check out</string>
+
+    <string name="plugins_action_restart">Restart</string>
+    <string name="plugins_action_turn_off">Turn off</string>
+    <string name="plugins_action_turn_on">Turn on</string>
+    <string name="plugins_action_update">Update to %1$s</string>
+    <string name="plugins_actions_for">Actions for %1$s</string>
+
+    <string name="plugins_restart_title">Restart %1$s?</string>
+    <string name="plugins_restart_message">Its process stops and starts again. Anything it is doing right now is interrupted</string>
+    <string name="plugins_turn_off_title">Turn off %1$s?</string>
+    <string name="plugins_turn_off_message">Its process stops, and what depends on it (a sign-in method, a metadata source, a scan source) stops working until you turn it on</string>
+    <string name="plugins_turn_on_title">Turn on %1$s?</string>
+    <string name="plugins_turn_on_message">It can run again and take part in what it is set up for</string>
+    <string name="plugins_update_title">Update %1$s?</string>
+    <string name="plugins_update_message">Version %1$s is downloaded from its repository and installed in place of %2$s. The plugin restarts</string>
+
+    <string name="plugins_unsupported">This server does not offer plugin management. Update the server to see its plugins here</string>
+    <string name="plugins_error_load">Couldn\'t load the plugins</string>
+    <string name="plugins_error_restart">Couldn\'t restart the plugin</string>
+    <string name="plugins_error_update">Couldn\'t update the plugin</string>
+    <string name="plugins_error_turn_on">Couldn\'t turn the plugin on</string>
+    <string name="plugins_error_turn_off">Couldn\'t turn the plugin off</string>
+</resources>

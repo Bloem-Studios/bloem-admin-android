@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Debug builds only (this file is in src/debug, so no release or minifiedTest build has it): a screen that draws
+        the real app screens from sample data, so the look can be checked with no server and no sign-in.
+        Open it with: bloemfixture://<shell|org|all>?page=<destination id>&theme=<system|light|dark>[&variant=<state>]
+    -->
+    <application>
+        <activity
+            android:name=".fixtures.FixtureActivity"
+            android:exported="true"
+            android:theme="@style/Theme.BloemAdmin">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="bloemfixture" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

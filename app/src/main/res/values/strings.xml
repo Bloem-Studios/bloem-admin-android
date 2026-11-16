@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bloem Admin</string>
+
+    <!-- Common -->
+    <string name="action_cancel">Cancel</string>
+    <string name="action_save">Save changes</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_username">Username</string>
+    <string name="action_password">Password</string>
+    <string name="action_email">Email</string>
+    <string name="action_dismiss">Dismiss</string>
+    <string name="action_revoke">Revoke</string>
+    <string name="action_close">Close</string>
+    <string name="action_retry">Try again</string>
+    <string name="action_refresh">Refresh</string>
+
+    <!-- Server list -->
+    <string name="server_list_title">Manage servers</string>
+    <string name="server_list_guidance">Select a server to manage</string>
+    <string name="server_list_add_server_description">Add a Silo server</string>
+    <string name="server_list_all_servers">All servers</string>
+    <string name="server_list_all_servers_description">View and manage every added server at once</string>
+    <string name="server_list_saved_eyebrow">Saved servers</string>
+    <string name="server_list_no_saved_servers">No individual servers saved yet</string>
+    <string name="server_list_actions_description">Actions for %1$s</string>
+    <string name="server_list_rename">Rename</string>
+    <string name="server_list_forget_credentials">Forget credentials</string>
+    <string name="server_list_forget_credentials_confirm_title">Forget credentials for %1$s?</string>
+    <string name="server_list_forget_credentials_confirm_body">This removes the locally stored access and refresh tokens from this device. It doesn\'t revoke server-side sessions.</string>
+    <string name="server_list_remove">Remove server</string>
+    <string name="server_list_remove_confirm_title">Remove %1$s?</string>
+    <string name="server_list_remove_confirm_body">This removes the server and its stored sign-in from this device. You can add it again later.</string>
+    <string name="server_list_rename_dialog_title">Rename %1$s</string>
+    <string name="server_list_display_name_hint">Display name</string>
+    <string name="server_list_https_required">This server uses an insecure address. Remove it and add its HTTPS address.</string>
+    <string name="credentials_recovered_title">Sign-in credentials cleared</string>
+    <string name="credentials_recovered_body">Encrypted credential storage was repaired. Your server list was preserved, but you need to sign in to each server again.</string>
+    <string name="credential_storage_unavailable_title">Secure credential storage unavailable</string>
+    <string name="credential_storage_unavailable_body">Bloem Admin can\'t securely store sign-in credentials on this device. Server details remain available, but sign-in is blocked until secure storage is available again. Close and restart the app; if the problem continues, check the device security settings.</string>
+
+    <!-- All Servers (aggregate) shell -->
+    <string name="streams_aggregate_no_sessions">No streams</string>
+    <string name="streams_aggregate_sign_in_required">Signed out. Tap to sign in again</string>
+    <string name="streams_aggregate_unreachable">Can\'t reach %1$s. Tap to try again</string>
+    <string name="streams_aggregate_state_loading_description">Loading active streams across all servers</string>
+    <string name="streams_aggregate_state_partial_description">Some active stream actions failed</string>
+    <string name="streams_server_empty_description">No active streams on %1$s</string>
+    <string name="streams_server_failure_description">Active streams unavailable on %1$s</string>
+    <string name="streams_server_sign_in_title">Sign in to continue</string>
+    <string name="streams_server_sign_in_message">The saved session for %1$s needs attention</string>
+    <string name="streams_server_unavailable_title">Server unavailable</string>
+
+    <!-- Add server -->
+    <string name="add_server_title">Add a Silo server</string>
+    <string name="add_server_guidance">Use your Silo server\'s HTTPS address and an administrator account</string>
+    <string name="add_server_url_label">Server URL</string>
+    <string name="add_server_url_hint">media.example.com</string>
+    <string name="add_server_connect">Sign in</string>
+    <string name="add_server_security_note">HTTPS required. Credentials stored encrypted on this device.</string>
+    <string name="add_server_unreachable">Couldn\'t reach that server. Check the address, that it uses https, and that this device is online</string>
+    <string name="add_server_unsafe_origin">Enter an HTTPS server address without a path, query, or sign-in details</string>
+    <string name="add_server_health_check_failed">This server didn\'t pass the required health check. Check that the address is a Silo server and that it is running</string>
+    <string name="add_server_invalid_credentials">The username or password wasn\'t accepted. Check them and try again</string>
+    <string name="add_server_admin_required">This account needs administrator access. Sign in with an administrator account</string>
+    <string name="add_server_incompatible_server">This server isn\'t compatible with Bloem Admin. Update the server, then try again</string>
+    <string name="add_server_storage_failed">Couldn\'t save this server on this device. Try again.</string>
+
+    <!-- Admin gate / re-login -->
+    <string name="relogin_expired_message">Your session on %1$s has expired. Sign in again to continue.</string>
+    <string name="relogin_sign_in">Sign in</string>
+    <string name="admin_gate_unauthorized">This account doesn\'t have admin access on %1$s</string>
+
+    <!-- Tabs -->
+    <string name="tab_dashboard">Dashboard</string>
+    <string name="tab_streams">Now playing</string>
+    <string name="tab_activity">Playback history</string>
+    <string name="tab_jobs">Scheduled tasks</string>
+    <string name="tab_requests">Requests</string>
+    <string name="tab_users">Users</string>
+    <string name="tab_server">Server settings</string>
+    <string name="tab_audit">Audit</string>
+    <string name="tab_logs">Logs</string>
+
+    <!-- Veil shell navigation -->
+    <string name="veil_context_all_servers">All servers</string>
+    <string name="veil_context_change_description">Change server context from %1$s</string>
+    <string name="veil_manage_servers">Manage servers</string>
+    <string name="veil_add_server">Add server</string>
+    <string name="veil_switcher_title">Servers</string>
+    <!-- Drawer foot: Manage servers, Settings and Sign out -->
+    <string name="drawer_sign_out">Sign out</string>
+    <string name="sign_out_title">Sign out of %1$s?</string>
+    <string name="sign_out_all_title">Sign out of all servers?</string>
+    <string name="sign_out_body">This removes the saved sign-in from this device. The server stays in your list, and you can sign in again.</string>
+    <string name="veil_back_to_servers">Back to servers</string>
+
+    <!-- Impersonation -->
+    <!-- Aggregate ("All Servers") shell: same banner, but labeled with which server it applies to, since more than one can show at once. -->
+
+    <!-- App lock -->
+    <string name="app_lock_title">Bloem Admin is locked</string>
+    <string name="app_lock_message">Unlock with your fingerprint, face or device PIN.</string>
+    <string name="app_lock_prompt_title">Unlock Bloem Admin</string>
+    <string name="app_lock_hardware_unavailable">Biometric hardware is unavailable right now. Try again, or use your device PIN if prompted.</string>
+    <string name="app_lock_unlock">Unlock</string>
+
+    <!-- Streams -->
+    <string name="streams_actions_description">Actions for %1$s</string>
+    <string name="streams_resume">Resume</string>
+    <string name="streams_pause">Pause</string>
+    <string name="streams_stop">Stop playback</string>
+    <string name="streams_terminate">End session</string>
+    <string name="streams_terminate_confirm_title">End this session?</string>
+    <string name="streams_terminate_confirm_body">The server ends %1$s’s session for “%2$s”. They can start playback again.</string>
+    <string name="streams_message">Message</string>
+    <string name="streams_message_dialog_title">Message %1$s</string>
+    <string name="streams_message_title_hint">Title (optional)</string>
+    <string name="streams_message_body_hint">Message</string>
+    <string name="streams_message_send">Send</string>
+    <string name="streams_message_sent">Message sent</string>
+    <string name="streams_message_client_not_connected">This client isn\'t connected right now, so it can\'t receive this message</string>
+    <string name="streams_state_loading_description">Loading active streams</string>
+    <string name="streams_state_empty_title">No streams</string>
+    <string name="streams_state_empty_description">No active streams</string>
+    <string name="streams_state_failure_title">Active streams unavailable</string>
+    <string name="streams_state_failure_description">Active streams unavailable</string>
+    <string name="streams_state_partial_title">Latest refresh failed</string>
+
+    <!-- Activity -->
+    <string name="activity_completed">Completed</string>
+    <string name="activity_partial">Partial</string>
+    <string name="activity_filter_user_id">Filter by user ID</string>
+    <string name="activity_load_more">Load more</string>
+    <string name="activity_state_loading_description">Loading playback activity</string>
+    <string name="activity_state_empty_title">No activity yet</string>
+    <string name="activity_state_empty_message">Playback history will appear here automatically</string>
+    <string name="activity_state_empty_description">No playback activity</string>
+    <string name="activity_state_filtered_empty_title">No activity for this user</string>
+    <string name="activity_state_filtered_empty_message">Try another user ID</string>
+    <string name="activity_state_failure_title">Activity unavailable</string>
+    <string name="activity_state_failure_description">Playback activity unavailable</string>
+    <string name="activity_state_partial_title">Latest activity refresh failed</string>
+    <string name="activity_state_partial_description">Playback activity partially refreshed</string>
+    <string name="activity_aggregate_state_loading_description">Loading playback activity across all servers</string>
+    <string name="activity_aggregate_state_empty_description">No playback activity across all servers</string>
+    <string name="activity_aggregate_state_partial_description">Some playback activity actions failed</string>
+    <string name="activity_server_empty_description">No playback activity on %1$s</string>
+    <string name="activity_server_failure_description">Playback activity unavailable on %1$s</string>
+
+    <!-- Jobs -->
+    <string name="jobs_schedule">Schedule</string>
+    <string name="jobs_schedule_dialog_title">Schedule: %1$s</string>
+
+    <!-- Requests -->
+    <string name="requests_approve">Approve</string>
+    <string name="requests_decline">Decline</string>
+    <string name="requests_retry">Try again</string>
+
+    <!-- Server config -->
+    <string name="server_config_restart_required_no_reason">Restart required</string>
+    <string name="server_config_restart">Restart server</string>
+    <string name="server_config_restart_confirm_title">Restart this server?</string>
+    <string name="server_config_restart_confirm_action">Restart</string>
+
+    <!-- Users -->
+    <string name="users_add_user">Add user</string>
+    <string name="users_search_hint">Search by username or email</string>
+    <string name="users_add_dialog_title">Add user</string>
+    <string name="users_create">Create</string>
+    <string name="users_max_streams">Max streams</string>
+    <string name="users_max_transcodes">Max transcodes</string>
+    <string name="users_max_profiles">Max profiles</string>
+    <string name="users_inherit">Inherit</string>
+    <string name="users_effective_libraries_unrestricted">Effective libraries: Unrestricted</string>
+    <string name="users_effective_libraries_restricted">Effective libraries: Restricted to %1$d</string>
+    <string name="users_effective_permissions_none">Effective permissions: None assigned</string>
+    <string name="users_effective_permissions_explicit">Effective permissions: %1$d assigned</string>
+    <string name="users_downloads_allowed">Downloads allowed</string>
+    <string name="users_requests_allowed">Requests allowed</string>
+    <string name="users_transcode_allowed">Transcode allowed</string>
+    <string name="users_audio_transcode_allowed">Audio transcode allowed</string>
+    <string name="users_invitations">Invitations</string>
+
+    <!-- Invitations -->
+    <string name="invitations_title">Invitations</string>
+    <string name="invitations_add_invitation">+ Invite</string>
+    <string name="invitations_none">No invitations yet</string>
+    <string name="invitations_dialog_title">Invite a user</string>
+    <string name="invitations_note_label">Note (optional)</string>
+    <string name="invitations_send">Send invite</string>
+    <string name="invitations_resend">Resend</string>
+    <string name="invitations_revoke_confirm_title">Revoke this invitation?</string>
+    <string name="invitations_revoke_confirm_body">%1$s will no longer be able to use this invite link</string>
+    <string name="invitations_expires">Expires %1$s</string>
+    <string name="invitations_result_title">Invitation sent</string>
+    <string name="invitations_failed_title">Email may not have arrived</string>
+    <string name="invitations_link_ready_title">Invitation link ready</string>
+    <string name="invitations_email_unconfirmed">Email unconfirmed</string>
+    <string name="invitations_link_invitation">Link invitation</string>
+    <string name="invitations_email_sent">The invite email was sent</string>
+    <string name="invitations_email_failed">The invite email failed or couldn\'t be confirmed. Don\'t assume it arrived: share this link with the user directly.</string>
+    <string name="invitations_email_not_configured">Email isn\'t set up on this server, so nothing was sent. Share this link with the user directly.</string>
+    <string name="invitations_link_only">Nothing was emailed. Share this link with the user directly.</string>
+    <string name="invitations_claim_url_label">Invite link</string>
+    <string name="invitations_copy_link">Copy link</string>
+    <string name="invitations_link_copied">Link copied</string>
+
+    <!-- User sessions/devices dialog -->
+    <string name="user_sessions_section_title">Sessions</string>
+    <string name="user_sessions_none">No active sessions</string>
+    <string name="user_sessions_unknown_device">Unknown device</string>
+    <string name="user_sessions_revoke_all">Revoke all sessions</string>
+    <string name="user_sessions_revoke_confirm_title">Revoke this session?</string>
+    <string name="user_sessions_revoke_confirm_body">The device using this session will be signed out immediately</string>
+    <string name="user_sessions_revoke_all_confirm_title">Revoke all sessions?</string>
+    <string name="user_sessions_revoke_all_confirm_body">Every device this user is signed in on will be signed out immediately. If this user is your own admin account, this will also sign YOU out.</string>
+    <string name="user_sessions_current">this session</string>
+    <string name="user_devices_section_title">Devices</string>
+    <string name="user_devices_none">No known devices</string>
+
+    <!-- Tenants -->
+    <string name="tab_tenants">Organizations</string>
+    <string name="tenants_none">No organizations</string>
+    <string name="tenants_retry">Try again</string>
+    <string name="tenants_slots_usage">%1$d / %2$d slots</string>
+    <string name="tenants_transcode_limit">%1$d transcode limit</string>
+    <string name="tenants_frozen">Frozen</string>
+    <string name="tenants_frozen_with_reason">Frozen · %1$s</string>
+    <string name="tenants_view_members">Members</string>
+    <string name="tenants_members_dialog_title">Members of %1$s</string>
+    <string name="tenants_no_members">No members</string>
+
+    <!-- Audit -->
+    <string name="audit_filter_user_id">Filter by user ID</string>
+    <string name="audit_load_more">Load more</string>
+    <string name="audit_impersonation_line">as %1$s → %2$s</string>
+    <string name="audit_user_line">User %1$s</string>
+    <string name="audit_status_line">%1$s · %2$d</string>
+
+    <string name="logs_filter_search">Search messages</string>
+    <string name="logs_load_more">Load more</string>
+    <string name="logs_level_all">All</string>
+    <string name="logs_level_debug">Debug</string>
+    <string name="logs_level_info">Info</string>
+    <string name="logs_level_warn">Warn</string>
+    <string name="logs_level_error">Error</string>
+
+    <!-- ViewModel-level fallback error messages (shown only when a request
+         never got a structured server response at all; see ErrorText.kt).
+         A server-supplied ApiError.message is carried verbatim instead of
+         going through these. -->
+    <string name="error_client_upgrade_required">This server needs a newer version of Bloem Admin</string>
+    <string name="error_action_failed">Couldn\'t complete that action</string>
+    <string name="error_with_http_status">%1$s (HTTP %2$d)</string>
+    <string name="error_stream_command_stale">Another command reached this stream first. Try again.</string>
+    <string name="error_could_not_load_requests">Couldn\'t load requests</string>
+    <string name="error_could_not_load_activity">Couldn\'t load activity</string>
+    <string name="error_could_not_load_more_activity">Couldn\'t load more activity</string>
+    <string name="error_could_not_load_jobs">Couldn\'t load scheduled tasks</string>
+    <string name="error_could_not_start_job">Couldn\'t start the task</string>
+    <string name="error_could_not_cancel_job">Couldn\'t cancel the task</string>
+    <string name="error_could_not_load_job_schedule">Couldn\'t load the task schedule</string>
+    <string name="error_could_not_update_job_schedule">Couldn\'t update the task schedule</string>
+    <string name="error_could_not_load_server_config">Couldn\'t load server configuration</string>
+    <string name="error_could_not_update_setting">Couldn\'t update setting</string>
+    <string name="error_could_not_restart_server">Couldn\'t restart server</string>
+    <string name="error_could_not_load_users">Couldn\'t load users</string>
+    <string name="error_could_not_update_user">Couldn\'t update user</string>
+    <string name="users_missing_version">This server didn\'t return a version for this user, so the change wasn\'t sent</string>
+    <string name="error_could_not_load_user">Couldn\'t load this user</string>
+    <string name="users_conflict">This user changed since it was loaded. Review it and try again.</string>
+    <string name="error_could_not_delete_user">Couldn\'t delete user</string>
+    <string name="error_could_not_create_user">Couldn\'t create user</string>
+    <string name="error_could_not_load_audit">Couldn\'t load the audit log</string>
+    <string name="error_could_not_load_more_audit">Couldn\'t load more of the audit log</string>
+    <string name="error_could_not_load_logs">Couldn\'t load the logs</string>
+    <string name="error_could_not_load_more_logs">Couldn\'t load more logs</string>
+    <string name="error_could_not_load_sessions">Couldn\'t load sessions</string>
+    <string name="error_could_not_load_devices">Couldn\'t load devices</string>
+    <string name="error_could_not_revoke_session">Couldn\'t revoke session</string>
+    <string name="error_could_not_load_tenants">Couldn\'t load organizations</string>
+    <string name="error_could_not_load_tenant_members">Couldn\'t load members of this organization</string>
+    <string name="error_could_not_load_dashboard">Couldn\'t load the dashboard</string>
+    <string name="error_could_not_load_invitations">Couldn\'t load invitations</string>
+    <string name="error_could_not_send_invitation">Couldn\'t send invitation</string>
+    <string name="error_could_not_resend_invitation">Couldn\'t resend invitation</string>
+    <string name="error_could_not_revoke_invitation">Couldn\'t revoke invitation</string>
+    <string name="error_admin_gate_unreachable">Couldn\'t reach the server</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_movies">Movies</string>
+    <string name="dashboard_shows">Shows</string>
+    <string name="dashboard_active_streams">Active streams</string>
+    <string name="dashboard_total_storage">Storage</string>
+    <string name="dashboard_relative_just_now">just now</string>
+    <string name="dashboard_relative_minutes_ago">%1$d min ago</string>
+    <string name="dashboard_relative_hours_ago">%1$d h ago</string>
+    <string name="dashboard_relative_days_ago">%1$d d ago</string>
+    <string name="dashboard_server_health_title">Server health</string>
+    <string name="dashboard_cpu_usage">CPU</string>
+    <string name="dashboard_cpu_percent">%1$.1f%%</string>
+    <string name="dashboard_memory_usage">Memory</string>
+    <string name="dashboard_state_loading_description">Loading overview metrics</string>
+    <string name="dashboard_state_partial_title">Latest overview refresh failed</string>
+    <string name="dashboard_state_partial_description">Overview partially refreshed</string>
+    <string name="settings_saved_restart_required">Saved. Restart the server to apply this change.</string>
+    <string name="settings_changed_on_server">Settings changed on the server</string>
+    <string name="settings_changed_on_server_hint">Your draft is kept. Review the current value before saving again.</string>
+    <string name="settings_read_failed">Couldn\'t read the current settings. Check the connection, then try again.</string>
+    <string name="task_state_idle">Idle</string>
+    <string name="task_state_running">Running</string>
+    <string name="task_state_cancelling">Cancelling</string>
+    <string name="run_status_queued">Queued</string>
+    <string name="run_status_running">Running</string>
+    <string name="run_status_succeeded">Succeeded</string>
+    <string name="run_status_completed">Completed</string>
+    <string name="run_status_failed">Failed</string>
+    <string name="run_status_cancelling">Cancelling</string>
+    <string name="run_status_cancelled">Cancelled</string>
+    <string name="role_user">User</string>
+    <string name="role_admin">Admin</string>
+    <string name="role_owner">Owner</string>
+    <string name="invitation_status_pending">Pending</string>
+    <string name="invitation_status_accepted">Accepted</string>
+    <string name="invitation_status_revoked">Revoked</string>
+    <string name="invitation_status_expired">Expired</string>
+    <string name="library_type_movies">Movies</string>
+    <string name="library_type_tv">TV shows</string>
+    <string name="library_type_audiobooks">Audiobooks</string>
+    <string name="library_type_music">Music</string>
+    <string name="jobs_trigger_every_hours">Every %1$d hr</string>
+    <string name="jobs_trigger_every_hours_minutes">Every %1$d hr %2$d min</string>
+    <string name="jobs_trigger_every_minutes">Every %1$d min</string>
+    <string name="jobs_trigger_every_seconds">Every %1$d s</string>
+    <string name="jobs_trigger_startup">On startup</string>
+    <string name="jobs_trigger_daily">Daily at %1$s</string>
+    <string name="jobs_trigger_weekly">%1$s at %2$s</string>
+    <string name="settings_enabled">Enabled</string>
+    <string name="settings_value">Value</string>
+    <string name="settings_edit_unavailable">Couldn\'t open a protected editor. Retry, or use the server web admin if this server doesn\'t support guarded settings edits.</string>
+    <string name="settings_conflict">This setting changed while you were editing. Your draft is preserved. Review the current value before saving again.</string>
+    <string name="settings_review_current">Review current value</string>
+    <string name="settings_current_value">Current server value: %1$s</string>
+    <string name="settings_adopt_revision">Keep draft and use this revision</string>
+    <string name="management_loading">Loading…</string>
+    <string name="management_empty_title">Nothing to show</string>
+    <string name="management_failed_title">Couldn\'t load this page</string>
+    <string name="management_pending_servers">Still loading: %1$s</string>
+    <string name="management_refresh">Refresh</string>
+    <string name="jobs_manual_only">On demand · scheduling unavailable</string>
+    <string name="dashboard_sampled_at">Sampled: %1$s</string>
+    <string name="dashboard_last_sample">Last sample %1$s</string>
+    <string name="jobs_retained_history">Background jobs</string>
+    <string name="jobs_execution_history">Run history</string>
+    <string name="jobs_history_notice">Task runs execute on the current server process. Retained jobs and saved execution history are separate records.</string>
+    <string name="jobs_actions">Actions for %1$s</string>
+    <string name="users_reset_title">Reset password for %1$s</string>
+    <string name="users_reset_confirmation">Send a one-time password reset link to this account’s email address? This replaces any previous link.</string>
+    <string name="users_reset_unavailable">Password reset email is unavailable. Check the server’s public URL and mail configuration, or use web administration.</string>
+    <string name="users_reset_send">Send reset email</string>
+    <string name="users_reset_sent">The mail server confirmed sending the reset email</string>
+    <string name="users_reset_unknown">Email delivery wasn\'t confirmed. The reset link is still active. Check delivery before issuing another.</string>
+    <string name="users_reset_uncertain">The result couldn\'t be confirmed. Check delivery before issuing another reset link.</string>
+    <string name="users_reset_failed">Couldn\'t send the reset email</string>
+    <string name="users_reset_expires">Expires: %1$s</string>
+    <string name="jobs_schedule_current">Current saved schedule</string>
+    <string name="jobs_schedule_none">No scheduled triggers</string>
+    <string name="login_show_password">Show</string>
+    <string name="login_hide_password">Hide</string>
+    <string name="login_signing_in">Signing in…</string>
+    <string name="login_checking_access">Checking administrator access…</string>
+    <string name="status_manage_streams">Manage streams</string>
+    <string name="status_sessions_stale">Live sessions unavailable. Showing the last reported data.</string>
+    <string name="status_sessions_loading">Loading live sessions…</string>
+    <string name="status_health_loading">Loading server health…</string>
+    <string name="status_health_unavailable">Server health unavailable</string>
+    <string name="status_playing">Playing</string>
+    <string name="status_paused">Paused</string>
+    <string name="app_settings_title">Settings</string>
+    <string name="app_settings_device_unlock">Require device unlock</string>
+    <string name="app_settings_device_unlock_description">Use a fingerprint or device PIN when opening this app</string>
+    <string name="app_settings_theme">Appearance</string>
+    <string name="app_settings_lock_section">App lock</string>
+    <string name="app_settings_theme_system">System</string>
+    <string name="app_settings_theme_light">Light</string>
+    <string name="app_settings_theme_dark">Dark</string>
+    <string name="action_done">Done</string>
+    <string name="session_source_connecting">Connecting</string>
+    <string name="session_source_live">Live</string>
+    <string name="session_source_reconnecting">Reconnecting</string>
+    <string name="session_source_unavailable">Unavailable</string>
+    <string name="session_source_sign_in_message">Sign in again to restore administrator access</string>
+    <string name="session_source_polling">Live updates unavailable. Sessions refresh every 15 seconds.</string>
+    <string name="session_source_protocol">Live updates couldn\'t be read. Reconnecting and checking sessions.</string>
+    <string name="session_source_connection">Connection lost. Reconnecting and checking sessions.</string>
+    <string name="session_source_deadline">Live updates timed out. Reconnecting and checking sessions.</string>
+    <string name="status_sample_not_available">Sampled metrics unavailable</string>
+    <string name="action_in_progress">Action in progress</string>
+    <plurals name="user_sessions_revoked_count">
+        <item quantity="one">Revoked %1$d session</item>
+        <item quantity="other">Revoked %1$d sessions</item>
+    </plurals>
+    <string name="oauth_sign_in_interrupted">The sign-in was interrupted. Try again.</string>
+    <string name="add_server_continue">Continue</string>
+    <string name="add_server_checking">Checking server…</string>
+    <string name="add_server_change_server">Change server</string>
+    <string name="add_server_choose_sign_in">Choose how to sign in to %1$s</string>
+    <string name="add_server_no_sign_in_options">This server\'s sign-in options aren\'t available in this app</string>
+    <string name="oauth_sign_in_with">Sign in with %1$s</string>
+    <string name="oauth_not_permitted">This account isn\'t allowed to sign in to this server</string>
+    <string name="oauth_account_required">No account on this server uses that sign-in. Ask the server\'s owner for an invitation.</string>
+    <string name="oauth_email_in_use">An account with that email already exists. Sign in with its password instead.</string>
+    <string name="oauth_identity_linked_elsewhere">That sign-in is linked to a different account</string>
+    <string name="oauth_account_disabled">This account is disabled</string>
+    <string name="oauth_provider_unavailable">%1$s isn\'t available right now. Try again later.</string>
+    <string name="oauth_expired">The sign-in took too long or was interrupted. Try again.</string>
+    <string name="oauth_failed">Sign-in didn\'t finish. Try again.</string>
+    <string name="oauth_untrusted">The sign-in response didn\'t come from this server. Try again.</string>
+    <string name="oauth_no_browser">Install or turn on a web browser to sign in with %1$s</string>
+    <string name="veil_group_platform">Platform</string>
+    <string name="veil_group_monitor">Monitor</string>
+    <string name="veil_group_manage">Manage</string>
+    <string name="veil_group_configure">Configure</string>
+    <string name="streams_path_source">Source</string>
+    <string name="streams_path_playback">Playback</string>
+    <string name="streams_path_client">Client</string>
+    <string name="streams_path_unknown_client">Unknown client</string>
+    <string name="streams_path_output">to %1$s</string>
+    <string name="dashboard_rollup_unreachable">Can\'t reach this server</string>
+    <string name="dashboard_rollup_signed_out">Signed out</string>
+    <string name="action_clear">Clear</string>
+    <string name="tenants_failed_title">Couldn\'t load organizations</string>
+    <string name="users_none">No users</string>
+    <string name="jobs_none">No scheduled tasks</string>
+    <string name="jobs_history_none">No task runs</string>
+    <string name="audit_none">No audit entries</string>
+    <string name="logs_none">No log entries</string>
+</resources>

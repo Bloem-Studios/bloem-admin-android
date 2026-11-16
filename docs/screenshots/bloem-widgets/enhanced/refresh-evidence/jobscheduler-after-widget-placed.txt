@@ -1,0 +1,3 @@
+    JobStatus{32d0794 androidx.work.systemjobscheduler:u0a269/2 @androidx.work.systemjobscheduler@com.bloemstudios.admin/androidx.work.impl.background.systemjob.SystemJobService u=0 s=10269 READY}: 14437733
+    JobStatus{6063db8 androidx.work.systemjobscheduler:u0a269/0 @androidx.work.systemjobscheduler@com.bloemstudios.admin/androidx.work.impl.background.systemjob.SystemJobService u=0 s=10269 TIME=+9m59s401ms:none NET satisfied:0x13600000 unsatisfied:0x80000000}: 29272077
+    JobStatus{aaf3383 androidx.work.systemjobscheduler:u0a269/3 @androidx.work.systemjobscheduler@com.bloemstudios.admin/androidx.work.impl.background.systemjob.SystemJobService u=0 s=10269 TIME=+3649d23h59m59s473ms:none CHARGING satisfied:0x3600003 unsatisfied:0x80000000}: 315389152150

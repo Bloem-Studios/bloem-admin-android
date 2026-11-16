@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Libraries page (the web's Manage > Libraries) -->
+    <string name="tab_libraries">Libraries</string>
+    <string name="shell_page_libraries">Media libraries, paths, scanning, and catalog import</string>
+
+    <!-- What happened and what to do next -->
+    <string name="error_could_not_load_libraries">Couldn\'t load libraries. Pull down to try again</string>
+    <string name="error_could_not_start_scan">Couldn\'t start the scan. Check the server and try again</string>
+    <string name="error_could_not_stop_scan">Couldn\'t stop the scan. Try again, or check the server</string>
+    <string name="error_could_not_check_mount">Couldn\'t check the mount. Check the server and try again</string>
+    <string name="error_could_not_start_refresh">Couldn\'t start the metadata refresh. Check the server and try again</string>
+    <string name="error_could_not_cancel_refresh">Couldn\'t cancel the metadata refresh. Try again, or check the server</string>
+    <string name="libraries_nothing_to_stop">No scan was queued or running for this library</string>
+
+    <!-- A library row -->
+    <string name="libraries_none">No libraries</string>
+    <string name="libraries_enabled">Enabled</string>
+    <string name="libraries_disabled">Disabled</string>
+    <plurals name="libraries_paths">
+        <item quantity="one">%1$d path</item>
+        <item quantity="other">%1$d paths</item>
+    </plurals>
+    <string name="libraries_last_scanned">Last scanned %1$s</string>
+    <string name="libraries_never_scanned">Not scanned yet</string>
+    <string name="libraries_row_summary">%1$s · %2$s · %3$s</string>
+
+    <!-- Actions -->
+    <string name="libraries_scan">Scan</string>
+    <string name="libraries_stop">Stop</string>
+    <string name="libraries_check_mount">Check the mount</string>
+    <string name="libraries_refresh_metadata">Refresh metadata</string>
+    <string name="libraries_cancel_refresh">Cancel refresh</string>
+    <string name="libraries_action_scan_for">Scan %1$s</string>
+    <string name="libraries_action_stop_for">Stop scanning %1$s</string>
+    <string name="libraries_action_mount_for">Check the mount of %1$s</string>
+    <string name="libraries_action_refresh_for">Refresh metadata of %1$s</string>
+    <string name="libraries_action_cancel_refresh_for">Cancel the metadata refresh of %1$s</string>
+    <string name="libraries_scan_unavailable">This server can\'t start scans from the app</string>
+
+    <!-- Scan status of a library -->
+    <string name="libraries_scan_skipped">Scan skipped, a scan of the same library was already running</string>
+    <string name="libraries_scan_state">Scan: %1$s</string>
+    <string name="libraries_scan_counts">%1$d new, %2$d updated, %3$d missing, %4$d errors</string>
+    <string name="libraries_scan_duration_hours">%1$d h %2$d min</string>
+    <string name="libraries_scan_duration_minutes">%1$d min %2$d s</string>
+    <string name="libraries_scan_duration_seconds">%1$d s</string>
+    <string name="libraries_scan_took">Took %1$s</string>
+
+    <!-- Scan warning (scan_warning_code) -->
+    <string name="libraries_warning_empty_root">Empty root</string>
+    <string name="libraries_warning_dead_root">Unreachable root</string>
+    <string name="libraries_warning_partial_walk">Some paths could not be read</string>
+    <string name="libraries_warning_empty_root_message">The scan found no media files for this library. Cleanup was paused to avoid deleting items by mistake</string>
+    <string name="libraries_warning_dead_root_message">One or more roots are unreachable, or mounted but empty. Their files are hidden, and nothing is deleted until the root is back</string>
+    <string name="libraries_warning_partial_walk_message">Some paths could not be read. Scan again when the storage is available</string>
+    <string name="libraries_warning_hint_mount">Scan again when the storage is back, or check the mount to see which root is the problem</string>
+    <string name="libraries_warning_raised">Raised %1$s</string>
+
+    <!-- Mount check -->
+    <string name="libraries_mount_reachable">Mount is reachable</string>
+    <string name="libraries_mount_not_reachable">Mount is not reachable</string>
+    <string name="libraries_mount_looks_empty">Mount is reachable but looks empty</string>
+    <string name="libraries_mount_problem">The mount check found a problem</string>
+    <string name="libraries_mount_checked">Checked %1$s</string>
+    <string name="libraries_mount_root_unreachable">%1$s: %2$s</string>
+    <string name="libraries_mount_root_unreachable_no_reason">%1$s: not reachable</string>
+    <string name="libraries_mount_root_empty">%1$s: reachable, but every known file under it is missing</string>
+
+    <!-- Metadata refresh -->
+    <string name="libraries_refresh_queued">Metadata refresh queued</string>
+    <string name="libraries_refresh_running">Refreshing metadata</string>
+    <string name="libraries_refresh_progress">Refreshing metadata: %1$d of %2$d items</string>
+    <string name="libraries_refresh_canceling">Cancelling the metadata refresh</string>
+    <string name="libraries_refresh_succeeded">Metadata refresh finished</string>
+    <string name="libraries_refresh_result">Metadata refresh finished: %1$d refreshed, %2$d failed</string>
+    <string name="libraries_refresh_failed">Metadata refresh failed</string>
+    <string name="libraries_refresh_cancelled">Metadata refresh cancelled</string>
+
+    <!-- Dialogs -->
+    <string name="libraries_stop_title">Stop scanning %1$s?</string>
+    <string name="libraries_stop_message">Queued and running scans of %1$s stop. You can scan it again at any time</string>
+    <string name="libraries_stop_confirm">Stop scan</string>
+    <string name="libraries_stop_keep">Keep scanning</string>
+    <string name="libraries_refresh_title">Refresh metadata for %1$s</string>
+    <string name="libraries_refresh_missing_title">Refresh missing metadata</string>
+    <string name="libraries_refresh_missing_detail">Refreshes matched items that were never refreshed, are missing an overview or artwork, or failed a previous refresh</string>
+    <string name="libraries_refresh_all_title">Refresh all metadata</string>
+    <string name="libraries_refresh_all_detail">Fetches every item from its providers again, including titles, artwork, seasons and episodes. A large library can take hours. Locked fields and artwork stay as they are</string>
+    <string name="libraries_refresh_confirm_missing">Refresh missing</string>
+    <string name="libraries_refresh_confirm_all">Refresh all</string>
+
+    <!-- Recent scans -->
+    <string name="libraries_recent_scans">Recent scans</string>
+    <string name="libraries_recent_scans_none">No scans yet</string>
+    <string name="libraries_recent_scans_unavailable">This server doesn\'t list scan runs, so scan results are not shown</string>
+    <string name="libraries_scan_trigger_manual">Manual</string>
+    <string name="libraries_scan_trigger_auto">Automatic</string>
+    <string name="libraries_scan_trigger_realtime">File change</string>
+    <string name="libraries_scan_trigger_autoscan">Autoscan</string>
+    <string name="libraries_scan_trigger_library_refresh">Metadata refresh</string>
+    <string name="libraries_scan_trigger_item_refresh">Title refresh</string>
+    <string name="libraries_scan_run_title">%1$s · %2$s</string>
+    <string name="libraries_scan_run_folder">Folder %1$s</string>
+    <string name="libraries_scan_run_file">File %1$s</string>
+    <string name="libraries_scan_run_at">%1$s · %2$s</string>
+</resources>

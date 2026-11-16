@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- User page: access group, libraries and permissions (the web's Access & limits tab). -->
+    <string name="user_access_group_title">Access group</string>
+    <string name="user_access_no_group">No group</string>
+    <string name="user_access_admin_no_groups">Admins don’t use access groups. Unset values follow the server default.</string>
+    <string name="user_access_group_unknown">Group #%1$s</string>
+    <string name="user_access_group_summary">%1$s: %2$s</string>
+    <string name="user_access_group_streams_unlimited">unlimited streams</string>
+    <plurals name="user_access_group_streams">
+        <item quantity="one">%d stream</item>
+        <item quantity="other">%d streams</item>
+    </plurals>
+    <string name="user_access_libraries_title">Libraries</string>
+    <string name="user_access_libraries_use_group">Use the group’s libraries</string>
+    <string name="user_access_libraries_use_default">Use the server default</string>
+    <string name="user_access_libraries_choose">Choose for this account</string>
+    <string name="user_access_libraries_all">All libraries</string>
+    <string name="user_access_libraries_none">No libraries</string>
+    <string name="user_access_libraries_none_warning">This account won’t see any library</string>
+    <string name="user_access_choices_loading">Loading groups and libraries…</string>
+    <string name="user_access_permissions_title">Permissions</string>
+    <string name="user_permission_marker_edit">Marker editing</string>
+    <string name="user_permission_marker_edit_help">Intro, recap, credits, and preview markers</string>
+    <string name="user_permission_metadata_curation">Metadata curation</string>
+    <string name="user_permission_metadata_curation_help">Edit, refresh, and rematch metadata</string>
+    <string name="user_permission_watch_live_tv">Watch live TV</string>
+    <string name="user_permission_watch_live_tv_help">Watch channels and manage recordings. Independent of library access; group restrictions still apply.</string>
+    <string name="user_permission_group_allows">The %1$s group allows this</string>
+    <string name="user_permission_group_disallows">%1$s group doesn’t allow this</string>
+    <string name="user_permission_assigned_blocked">Set on this account; has no effect under %1$s</string>
+    <string name="user_permission_remove">Remove from account</string>
+
+    <!-- User page: Preferences tab (the web's Preferences tab). -->
+    <string name="user_tab_preferences">Preferences</string>
+    <string name="user_prefs_loading">Loading settings…</string>
+    <string name="user_prefs_load_failed">Couldn’t load this user’s settings</string>
+    <string name="user_prefs_no_profiles">This account has no profiles with settings yet</string>
+    <string name="user_prefs_level_picker">Setting level</string>
+    <string name="user_prefs_group_account">Account</string>
+    <string name="user_prefs_group_profile">Profile · %1$s</string>
+    <string name="user_prefs_level_account_wide">Account-wide</string>
+    <string name="user_prefs_level_all_devices">All devices</string>
+    <string name="user_prefs_level_device_by_id">Device %1$s</string>
+    <string name="user_prefs_level_unknown_device">Unknown device</string>
+    <string name="user_prefs_level_client_apps">%1$s apps</string>
+    <string name="user_prefs_level_library">%1$s library</string>
+    <string name="user_prefs_level_library_by_id">Library #%1$s</string>
+    <string name="user_prefs_level_series">Series %1$s</string>
+    <string name="user_prefs_level_option">%1$s (%2$d)</string>
+    <string name="user_prefs_desc_account">These apply to every profile on the account</string>
+    <string name="user_prefs_desc_profile">These apply on every device %1$s uses</string>
+    <string name="user_prefs_desc_device">These replace %1$s’s settings on this device only; everything else follows %1$s</string>
+    <string name="user_prefs_desc_client">These replace %1$s’s settings in these apps only; everything else follows %1$s</string>
+    <string name="user_prefs_desc_library">These replace %1$s’s settings in this library only; everything else follows %1$s</string>
+    <string name="user_prefs_desc_series">These replace %1$s’s settings for this series only; everything else follows %1$s</string>
+    <string name="user_prefs_empty_title">Nothing is set here</string>
+    <string name="user_prefs_empty_profile">%1$s follows the app defaults</string>
+    <string name="user_prefs_empty_other">Everything here follows %1$s</string>
+    <string name="user_prefs_add">Add a setting</string>
+    <string name="user_prefs_add_set_here">Set</string>
+    <string name="user_prefs_replaces_profile">Replaces %1$s: %2$s</string>
+    <string name="user_prefs_replaces_default_value">Replaces app default: %1$s</string>
+    <string name="user_prefs_replaces_default">Replaces the app default</string>
+    <string name="user_prefs_value_on">On</string>
+    <string name="user_prefs_value_off">Off</string>
+    <string name="user_prefs_value_unset">Not set</string>
+    <string name="user_prefs_view_only">View only</string>
+    <string name="user_prefs_not_in_version">Not in this version</string>
+    <string name="user_prefs_remove">Remove %1$s</string>
+    <string name="user_prefs_remove_title_profile">Use %1$s’s value?</string>
+    <string name="user_prefs_remove_title_default">Go back to the app default?</string>
+    <string name="user_prefs_remove_body_profile">%1$s goes back to %2$s’s setting. The change reaches the app the next time it syncs.</string>
+    <string name="user_prefs_remove_body_default">%1$s goes back to the app default. The change reaches the app the next time it syncs.</string>
+    <string name="user_prefs_remove_confirm_profile">Use %1$s’s</string>
+    <string name="user_prefs_remove_confirm_default">Use app default</string>
+    <string name="user_prefs_save">Save changes</string>
+    <string name="user_prefs_invalid_number">Enter a whole number</string>
+    <string name="user_prefs_out_of_range">Enter a number from %1$s to %2$s</string>
+    <string name="user_prefs_write_failed">Couldn’t save this setting</string>
+    <string name="user_prefs_read_only_note">You can view this account’s settings but not change them</string>
+</resources>

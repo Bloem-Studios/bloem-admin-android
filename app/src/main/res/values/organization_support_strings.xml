@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Organization support: helping a person get back in, their sign-ins and devices, their profiles, the organization's
+     streams, and the server Owner's audited support access. New keys only. -->
+<resources>
+    <!-- Support access ended -->
+    <string name="organization_support_ended">This support access has ended. Open the organization again to continue.</string>
+
+    <!-- Why the server will not let you help this person -->
+    <string name="organization_support_protected_title">You can\'t help this person</string>
+    <string name="organization_support_error_protected">You can\'t help this person: the server protects them from this action</string>
+    <string name="organization_support_protected_self">You can\'t do this to your own account here. Use the app\'s own settings.</string>
+    <string name="organization_support_protected_platform">This is a platform account. Only the server\'s Owner can change it.</string>
+    <string name="organization_support_protected_owner">This person owns the organization. Only the platform operator can help them.</string>
+    <string name="organization_support_protected_admin">This person is an administrator. Only the organization\'s owner can help them.</string>
+
+    <!-- Person page: the card that says what is not available -->
+    <string name="organization_person_limits_support_body">You can\'t set a PIN, change age limits or other parental settings, or sign in as someone. You help the organization\'s members; the organization\'s owner can also help its other administrators.</string>
+
+    <!-- Password reset -->
+    <string name="organization_support_reset_title">Password</string>
+    <string name="organization_support_reset_body">Send %1$s a link to choose a new password. You never see or type a password.</string>
+    <string name="organization_support_reset_action">Reset password</string>
+    <string name="organization_support_reset_action_for">Reset password for %1$s</string>
+    <string name="organization_support_reset_dialog_title">Reset the password for %1$s?</string>
+    <string name="organization_support_reset_email">Email the link</string>
+    <string name="organization_support_reset_email_hint">Sent to their email address. The link works for 24 hours.</string>
+    <string name="organization_support_reset_link">Show a one-time link</string>
+    <string name="organization_support_reset_link_hint">You hand it over yourself. It works for 4 hours and is shown only once.</string>
+    <string name="organization_support_reset_send">Send email</string>
+    <string name="organization_support_reset_create">Create link</string>
+    <string name="organization_support_notice_reset_sent">Reset email sent. The link works for 24 hours.</string>
+    <string name="organization_support_notice_reset_unconfirmed">The server couldn\'t confirm the email was sent. Check with the member, or create a one-time link instead.</string>
+    <string name="organization_support_error_reset">The reset couldn\'t be created. Check the person before trying again.</string>
+    <string name="organization_support_error_link_missing">The server made a link but didn\'t return it, so it can\'t be shown. Create a new one.</string>
+    <string name="organization_support_link_title">One-time reset link</string>
+    <string name="organization_support_link_body">Give this link to %1$s. It works for 4 hours and is shown only now: closing this removes it.</string>
+    <string name="organization_support_link_label">Reset link</string>
+    <string name="organization_support_link_copy">Copy link</string>
+    <string name="organization_support_link_copied">Copied</string>
+    <string name="organization_support_link_share">Share link</string>
+    <string name="organization_support_link_share_title">Share the reset link</string>
+    <string name="organization_support_link_done">Done</string>
+
+    <!-- Sign-ins and devices -->
+    <string name="organization_support_sessions_title">Signed in</string>
+    <string name="organization_support_sessions_none">Not signed in anywhere</string>
+    <string name="organization_support_sessions_unavailable">The sign-ins couldn\'t be loaded</string>
+    <string name="organization_support_session_profile">Profile: %1$s</string>
+    <string name="organization_support_session_since">Signed in %1$s</string>
+    <string name="organization_support_session_seen">Last seen %1$s</string>
+    <string name="organization_support_sign_out">Sign out</string>
+    <string name="organization_support_sign_out_of">Sign out %1$s on %2$s</string>
+    <string name="organization_support_sign_out_everywhere">Sign out everywhere</string>
+    <string name="organization_support_sign_out_everywhere_for">Sign %1$s out everywhere</string>
+    <string name="organization_support_sign_out_title">Sign %1$s out of this session?</string>
+    <string name="organization_support_sign_out_body">That sign-in ends now. They can sign in again with their password.</string>
+    <string name="organization_support_sign_out_all_title">Sign %1$s out everywhere?</string>
+    <string name="organization_support_sign_out_all_body">Every app and device ends its sign-in and asks them to sign in again. Their devices stay on the list.</string>
+    <string name="organization_support_devices_title">Devices</string>
+    <string name="organization_support_devices_none">No devices</string>
+    <string name="organization_support_devices_unavailable">The devices couldn\'t be loaded</string>
+    <string name="organization_support_device_seen">Last seen %1$s</string>
+    <string name="organization_support_device_profiles">Profiles: %1$s</string>
+    <string name="organization_support_sign_out_device">Sign out device</string>
+    <string name="organization_support_sign_out_device_of">Sign out %1$s</string>
+    <string name="organization_support_sign_out_device_title">Sign %1$s out of %2$s?</string>
+    <string name="organization_support_sign_out_device_body">Everything signed in on this device ends. They can sign in on it again.</string>
+    <string name="organization_support_notice_signed_out">Signed out</string>
+    <string name="organization_support_notice_signed_out_all">Signed out everywhere</string>
+    <string name="organization_support_notice_device_signed_out">Signed out of the device</string>
+    <string name="organization_support_error_signout">The sign-out didn\'t go through. Check the person before trying again.</string>
+
+    <!-- Profiles -->
+    <string name="organization_support_profile_add">Add profile</string>
+    <string name="organization_support_profile_add_for">Add a profile for %1$s</string>
+    <string name="organization_support_profile_add_title">Add a profile for %1$s</string>
+    <string name="organization_support_profile_name">Profile name</string>
+    <string name="organization_support_profile_name_count">%1$d of 100</string>
+    <string name="organization_support_profile_group">Access group</string>
+    <string name="organization_support_profile_group_default">Default group</string>
+    <string name="organization_support_profile_main">Main profile</string>
+    <string name="organization_support_profile_pin_set">PIN set</string>
+    <string name="organization_support_profile_pin_none">No PIN</string>
+    <string name="organization_support_profile_rename">Rename</string>
+    <string name="organization_support_profile_rename_of">Rename %1$s</string>
+    <string name="organization_support_profile_rename_title">Rename %1$s</string>
+    <string name="organization_support_profile_save">Save changes</string>
+    <string name="organization_support_profile_clear_pin">Clear PIN</string>
+    <string name="organization_support_profile_clear_pin_of">Clear the PIN on %1$s</string>
+    <string name="organization_support_profile_clear_pin_title">Clear the PIN on %1$s?</string>
+    <string name="organization_support_profile_clear_pin_body">Anyone can open this profile until the member chooses a new PIN. You can\'t set a PIN for them.</string>
+    <string name="organization_support_profile_remove">Remove</string>
+    <string name="organization_support_profile_remove_of">Remove %1$s</string>
+    <string name="organization_support_profile_remove_title">Remove %1$s?</string>
+    <string name="organization_support_profile_remove_body">The profile, its watch history and its settings are deleted. This can\'t be undone. Stop any stream playing on it first.</string>
+    <string name="organization_support_profile_add_confirm">Add</string>
+    <string name="organization_support_notice_profile_added">Profile added</string>
+    <string name="organization_support_notice_profile_renamed">Profile renamed</string>
+    <string name="organization_support_notice_pin_cleared">PIN cleared. The member chooses a new one.</string>
+    <string name="organization_support_notice_profile_removed">Profile removed</string>
+    <string name="organization_support_error_name">Enter a name for the profile</string>
+    <string name="organization_support_error_profile">The profile change didn\'t go through. Check the person before trying again.</string>
+    <string name="organization_support_error_profile_refused">The server refused that name or group. Check it and try again.</string>
+
+    <!-- Now playing (organization) -->
+    <string name="organization_nav_streams">Now playing</string>
+    <string name="shell_page_org_streams">Who is watching right now, on what, and whether it plays directly or is converted</string>
+    <string name="organization_streams_title">Now playing</string>
+    <string name="organization_streams_subtitle">Refreshes every 15 seconds</string>
+    <string name="organization_streams_none">Nobody in this organization is watching right now</string>
+    <string name="organization_streams_unavailable">This server can\'t show your organization\'s streams</string>
+    <string name="organization_streams_error">The streams couldn\'t be loaded</string>
+    <string name="organization_streams_more">There are more streams than fit here. The first %1$d are shown.</string>
+    <string name="organization_streams_actions">Actions for %1$s\'s stream</string>
+    <string name="organization_streams_stop">Stop playback</string>
+    <string name="organization_streams_message">Send message</string>
+    <string name="organization_streams_stop_title">Stop %1$s’s playback?</string>
+    <string name="organization_streams_stop_body">Playback of %2$s ends now. %1$s can start it again.</string>
+    <string name="organization_streams_stop_confirm">Stop playback</string>
+    <string name="organization_streams_message_title">Message %1$s</string>
+    <string name="organization_streams_message_title_hint">Title (optional)</string>
+    <string name="organization_streams_message_body_hint">Message</string>
+    <string name="organization_streams_message_count">%1$d of 2048</string>
+    <string name="organization_streams_message_send">Send</string>
+    <string name="organization_streams_message_close">Close</string>
+    <string name="organization_streams_message_empty">Write a message to send</string>
+    <string name="organization_streams_message_too_long">The message is too long (up to 2048 characters)</string>
+    <string name="organization_streams_title_too_long">The title is too long (up to 256 characters)</string>
+    <string name="organization_streams_message_sent">Message sent</string>
+    <string name="organization_streams_message_queued">Message accepted. It shows when the player is ready.</string>
+    <string name="organization_streams_message_not_connected">This player isn\'t connected right now, so it can\'t show a message</string>
+    <string name="organization_streams_notice_stopped">Stream stopped</string>
+    <string name="organization_streams_notice_stopped_quietly">Stream stopped. The player may take a moment to notice.</string>
+    <string name="organization_streams_error_stop">The stream couldn\'t be stopped. Check the list before trying again.</string>
+    <string name="organization_streams_error_message">The message couldn\'t be sent</string>
+
+    <!-- The Owner's support access: the banner while it is open -->
+    <string name="organization_support_banner_title">Platform support access</string>
+    <string name="organization_support_banner_left">%1$s left</string>
+    <string name="organization_support_banner_ended">Support access has ended</string>
+    <string name="organization_support_banner_description">Platform support access to this organization. %1$s</string>
+    <string name="organization_support_banner_hint">Everything you change is shown to this organization\'s administrators</string>
+    <string name="organization_support_end">End access</string>
+    <string name="organization_support_end_title">End support access?</string>
+    <string name="organization_support_end_body">You leave this organization. Its administrators see that the access ended.</string>
+    <string name="organization_support_end_confirm">End access</string>
+    <string name="organization_support_end_error">The access couldn\'t be ended. Try again; it ends by itself after four hours.</string>
+    <string name="organization_support_time_hours_minutes">%1$d h %2$d min</string>
+    <string name="organization_support_time_hours">%1$d h</string>
+    <string name="organization_support_time_minutes">%1$d min</string>
+
+    <!-- The Owner's support access: choosing an organization -->
+    <string name="organization_support_nav">Support access</string>
+    <string name="shell_page_org_support">Open a customer\'s organization when its administrator can\'t help themselves</string>
+    <string name="organization_support_open_title">Support access</string>
+    <string name="organization_support_open_body">Open a customer\'s organization when its administrator can\'t help themselves. You state a reason first. The reason and every change you make are shown to the organization\'s administrators in Activity as Platform support, and the access ends after four hours.</string>
+    <string name="organization_support_search">Search organizations</string>
+    <string name="organization_support_none">No organization matches</string>
+    <string name="organization_support_load_error">The organizations couldn\'t be loaded</string>
+    <string name="organization_support_open_action">Open for support</string>
+    <string name="organization_support_open_action_for">Open %1$s for support</string>
+    <string name="organization_support_unavailable_status">%1$s: can\'t be opened</string>
+    <string name="organization_support_member_note">You\'re a member. Open it from the organization menu in the top bar.</string>
+    <string name="organization_support_members">%1$d members</string>
+    <string name="organization_support_more">Load more</string>
+    <string name="organization_support_reason_title">Open %1$s</string>
+    <string name="organization_support_reason_body">Say why you are opening this organization. Its administrators will read this.</string>
+    <string name="organization_support_reason_label">Reason</string>
+    <string name="organization_support_reason_count">%1$d of 500 (at least 10)</string>
+    <string name="organization_support_reason_short">Enter at least 10 characters</string>
+    <string name="organization_support_reason_long">Keep it to 500 characters</string>
+    <string name="organization_support_reason_control">Use plain text, on one line</string>
+    <string name="organization_support_reason_open">Open organization</string>
+</resources>

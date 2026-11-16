@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Organization mode. Names follow the web admin (bloem/locales/en.admin.json). -->
+<resources>
+    <!-- Navigation -->
+    <string name="organization_group_label">Organization</string>
+    <string name="organization_nav_overview">Overview</string>
+    <string name="organization_nav_people">People</string>
+    <string name="organization_nav_cohorts">Cohorts</string>
+    <string name="organization_nav_groups">Access groups</string>
+    <string name="organization_nav_libraries">Libraries</string>
+    <string name="organization_nav_invitations">Invitations</string>
+    <string name="organization_nav_decisions">Access checks</string>
+    <string name="organization_nav_activity">Activity</string>
+
+    <!-- Access and context choice -->
+    <string name="organization_no_access">You don\'t have access to this organization</string>
+    <string name="organization_choose_another">Choose another organization</string>
+    <string name="organization_changed_reloaded">This organization changed. It has been reloaded; try again.</string>
+    <string name="organization_opening">Opening organization…</string>
+    <string name="organization_choice_title">Choose an organization</string>
+    <string name="organization_choice_body">You administer more than one organization on %1$s</string>
+    <string name="organization_try_again">Try again</string>
+    <string name="organization_loading">Loading…</string>
+    <string name="organization_dismiss">Dismiss</string>
+    <string name="organization_cancel">Cancel</string>
+
+    <!-- Load and write failures (fallbacks when the server gave no message) -->
+    <string name="organization_error_overview">This organization couldn\'t be loaded</string>
+    <string name="organization_error_people">People couldn\'t be loaded</string>
+    <string name="organization_error_person_change">The change couldn\'t be confirmed. Check the list before trying again.</string>
+    <string name="organization_error_cannot_suspend">That membership can\'t be suspended. The owner always keeps access.</string>
+    <string name="organization_error_groups">Access groups couldn\'t be loaded</string>
+    <string name="organization_error_libraries">Libraries couldn\'t be loaded</string>
+    <string name="organization_error_library_change">The library change couldn\'t be confirmed. Check its status and try again.</string>
+    <string name="organization_error_invitations">Invitations couldn\'t be loaded</string>
+    <string name="organization_error_invite_unconfirmed">The invitation couldn\'t be confirmed. Check the list before sending again.</string>
+    <string name="organization_error_invite_refused">That invitation wasn\'t accepted. Check the email address and access group.</string>
+    <string name="organization_error_email_required">Enter an email address</string>
+    <string name="organization_error_revoke">The invitation couldn\'t be revoked</string>
+    <string name="organization_error_activity">Activity couldn\'t be loaded</string>
+    <string name="organization_error_cohorts">Cohorts couldn\'t be loaded</string>
+    <string name="organization_error_decisions">Access checks couldn\'t be loaded</string>
+
+    <!-- Overview -->
+    <string name="organization_overview_title">Organization overview</string>
+    <string name="organization_overview_members">Members</string>
+    <string name="organization_overview_profiles">Profiles</string>
+    <string name="organization_overview_owned_libraries">Owned libraries</string>
+    <string name="organization_overview_shared_libraries">Libraries shared with it</string>
+    <string name="organization_overview_about">About</string>
+    <string name="organization_overview_owner">Owner</string>
+    <string name="organization_overview_no_owner">Nobody yet</string>
+    <string name="organization_overview_owner_unknown">Name unavailable</string>
+    <string name="organization_overview_short_name">Short name</string>
+    <string name="organization_overview_status">Status</string>
+    <string name="organization_overview_revision">Settings revision</string>
+    <string name="organization_status_active">Active</string>
+    <string name="organization_status_suspended">Suspended</string>
+    <string name="organization_status_invited">Invited</string>
+    <string name="organization_status_initializing">Initializing</string>
+
+    <!-- People -->
+    <string name="organization_people_title">People</string>
+    <string name="organization_people_search">Search people</string>
+    <string name="organization_people_search_hint">Name, email or profile</string>
+    <string name="organization_people_status">Membership status</string>
+    <string name="organization_people_any_status">Any status</string>
+    <string name="organization_people_access_group">Access group</string>
+    <string name="organization_people_any_group">Any access group</string>
+    <string name="organization_people_none">There is nobody in this organization yet</string>
+    <string name="organization_people_show_more">Load more</string>
+    <string name="organization_people_last_active">Last active %1$s</string>
+    <string name="organization_people_administrator">Administrator</string>
+    <string name="organization_people_you">You</string>
+    <string name="organization_people_profile_group">%1$s · %2$s</string>
+    <string name="organization_people_suspend">Suspend</string>
+    <string name="organization_people_reactivate">Reactivate</string>
+    <string name="organization_people_actions">Actions for %1$s</string>
+    <string name="organization_people_move_profile">Move %1$s to an access group</string>
+    <string name="organization_people_move_title">Move %1$s</string>
+    <string name="organization_people_suspend_title">Suspend %1$s?</string>
+    <string name="organization_people_suspend_body">They won\'t be able to use this organization until you reactivate them. Nothing is deleted.</string>
+    <string name="organization_people_reactivate_title">Reactivate %1$s?</string>
+    <string name="organization_people_reactivate_body">They will be able to use this organization again</string>
+    <string name="organization_people_working">Working…</string>
+    <string name="organization_notice_suspended">Membership suspended</string>
+    <string name="organization_notice_reactivated">Membership reactivated</string>
+    <string name="organization_notice_group_changed">Profile moved to the access group</string>
+
+    <!-- Access groups -->
+    <string name="organization_groups_title">Access groups</string>
+    <string name="organization_groups_none">No access groups yet</string>
+    <string name="organization_groups_default">Default</string>
+    <string name="organization_groups_streams">Streams: %1$d</string>
+    <string name="organization_groups_profiles">Profiles: %1$d</string>
+    <string name="organization_groups_quality">Quality: %1$s</string>
+    <string name="organization_groups_downloads">Downloads</string>
+    <string name="organization_groups_transcoding">Transcoding</string>
+    <string name="organization_groups_requests">Requests</string>
+
+    <!-- Libraries & Entitlements -->
+    <string name="organization_libraries_title">Libraries</string>
+    <string name="organization_libraries_ceiling">These are the most this organization\'s members can see. Each person\'s plan, access group and profile can narrow it further.</string>
+    <string name="organization_libraries_none">This organization has no libraries yet</string>
+    <string name="organization_libraries_owned">Owned by this organization</string>
+    <string name="organization_libraries_shared">Shared by the server</string>
+    <string name="organization_libraries_active">Members can use it</string>
+    <string name="organization_libraries_paused">Paused: members can\'t use it until it is restored</string>
+    <string name="organization_libraries_withdrawn">Withdrawn</string>
+    <string name="organization_libraries_pause">Pause</string>
+    <string name="organization_libraries_restore">Restore</string>
+    <string name="organization_libraries_pause_title">Pause %1$s?</string>
+    <string name="organization_libraries_pause_body">Members can\'t use this library until you restore it. No files are deleted.</string>
+    <string name="organization_libraries_restore_title">Restore %1$s?</string>
+    <string name="organization_libraries_restore_body">Members can use this library again, within their own plan and profile limits</string>
+    <string name="organization_libraries_actions">%1$s for %2$s</string>
+
+    <!-- Invitations -->
+    <string name="organization_invitations_title">Invitations</string>
+    <string name="organization_invitations_none">No invitations yet. Invite someone to get started.</string>
+    <string name="organization_invitations_invite">Invite someone</string>
+    <string name="organization_invitations_email">Email address</string>
+    <string name="organization_invitations_email_hint">them@example.com</string>
+    <string name="organization_invitations_group">Access group</string>
+    <string name="organization_invitations_group_default">Organization default</string>
+    <string name="organization_invitations_note">Personal note (optional)</string>
+    <string name="organization_invitations_create">Create invite link</string>
+    <string name="organization_invitations_creating">Creating…</string>
+    <string name="organization_invitations_resend">Resend with a fresh link</string>
+    <string name="organization_invitations_revoke">Revoke</string>
+    <string name="organization_invitations_revoke_title">Revoke invitation</string>
+    <string name="organization_invitations_revoke_body">Revoke the invitation for %1$s? Their link will stop working immediately.</string>
+    <string name="organization_invitations_expires">Expires %1$s</string>
+    <string name="organization_invitations_invited_by">Invited by %1$s</string>
+    <string name="organization_invitations_status_pending">Pending</string>
+    <string name="organization_invitations_status_accepted">Accepted</string>
+    <string name="organization_invitations_status_revoked">Revoked</string>
+    <string name="organization_invitations_status_expired">Expired</string>
+    <string name="organization_invitations_link_title">Invitation link ready</string>
+    <string name="organization_invitations_link_body">No email was sent. Deliver this one-time link yourself. It works once and expires in 7 days; resending makes a fresh link and ends this one.</string>
+    <string name="organization_invitations_link_label">Invite link</string>
+    <string name="organization_invitations_copy">Copy link</string>
+    <string name="organization_invitations_copied">Link copied</string>
+    <string name="organization_invitations_done">Done</string>
+
+    <!-- Activity & Audit -->
+    <string name="organization_activity_title">Activity</string>
+    <string name="organization_activity_none">Nothing has changed yet</string>
+    <string name="organization_activity_show_older">Load more</string>
+    <string name="organization_activity_by_account">%1$s · By account %2$d</string>
+    <string name="organization_activity_by_bloem">%1$s · By Bloem</string>
+    <string name="organization_activity_by_platform_support">%1$s · By Platform support</string>
+    <string name="organization_activity_reason">Reason: %1$s</string>
+    <string name="organization_activity_technical">%1$s · %2$s</string>
+
+    <string name="organization_action_organization_created">Organization created</string>
+    <string name="organization_action_organization_renamed">Renamed</string>
+    <string name="organization_action_organization_slug_changed">Short name changed</string>
+    <string name="organization_action_organization_suspended">Suspended</string>
+    <string name="organization_action_organization_reactivated">Reactivated</string>
+    <string name="organization_action_ownership_transferred">Ownership transferred</string>
+    <string name="organization_action_plan_applied">Plan applied</string>
+    <string name="organization_action_member_added">Member added</string>
+    <string name="organization_action_role_changed">Member\'s role changed</string>
+    <string name="organization_action_member_status_changed">Member suspended or reactivated</string>
+    <string name="organization_action_plan_assigned">Plan or settings changed for an account</string>
+    <string name="organization_action_bulk_started">Bulk change started</string>
+    <string name="organization_action_bulk_policy_started">Bulk plan or settings change started</string>
+    <string name="organization_action_bulk_finished">Bulk change finished</string>
+    <string name="organization_action_bulk_failed">Bulk change failed</string>
+    <string name="organization_action_bulk_stopped">Bulk change stopped</string>
+    <string name="organization_action_bulk_group">Profiles moved to an access group</string>
+    <string name="organization_action_bulk_policy_assigned">Account moved to a new plan or settings</string>
+    <string name="organization_action_bulk_suspended">Member suspended in a bulk change</string>
+    <string name="organization_action_bulk_reactivated">Member reactivated in a bulk change</string>
+    <string name="organization_action_bulk_skipped">An account was skipped in a bulk change</string>
+    <string name="organization_action_bulk_record_failed">An account failed in a bulk change</string>
+    <string name="organization_action_membership_changed">Membership changed</string>
+    <string name="organization_action_profile_group">Profile moved to another access group</string>
+    <string name="organization_outcome_partial">Some not changed</string>
+    <string name="organization_outcome_conflict">Not changed</string>
+    <string name="organization_outcome_failed">Failed</string>
+    <string name="organization_outcome_skipped">Skipped</string>
+    <string name="organization_outcome_denied">Refused</string>
+
+    <!-- Policy Cohorts -->
+    <string name="organization_cohorts_title">Cohorts</string>
+    <string name="organization_cohorts_none">No cohorts yet. One appears when you first put people on a plan.</string>
+    <string name="organization_cohorts_from_plan">From plan %1$s</string>
+    <string name="organization_cohorts_archived">Archived</string>
+
+    <!-- Policy Decisions -->
+    <string name="organization_decisions_title">Access checks</string>
+    <string name="organization_decisions_none">Nothing has been checked yet</string>
+    <string name="organization_decisions_allowed">%1$s: allowed</string>
+    <string name="organization_decisions_refused">%1$s: refused</string>
+    <string name="organization_decisions_account">Account %1$d</string>
+    <string name="organization_decisions_account_unknown">Account not recorded</string>
+    <string name="organization_decisions_group">Group %1$s</string>
+    <string name="organization_decisions_profile">Profile %1$s</string>
+    <string name="organization_decisions_show_more">Load more</string>
+
+    <plurals name="organization_overview_active_members">
+        <item quantity="one">%1$d active</item>
+        <item quantity="other">%1$d active</item>
+    </plurals>
+    <plurals name="organization_people_about">
+        <item quantity="one">About %1$d person</item>
+        <item quantity="other">About %1$d people</item>
+    </plurals>
+    <plurals name="organization_groups_members">
+        <item quantity="one">%1$d member</item>
+        <item quantity="other">%1$d members</item>
+    </plurals>
+    <plurals name="organization_groups_libraries_count">
+        <item quantity="one">%1$d library</item>
+        <item quantity="other">%1$d libraries</item>
+    </plurals>
+    <plurals name="organization_cohorts_accounts">
+        <item quantity="one">%1$d account</item>
+        <item quantity="other">%1$d accounts</item>
+    </plurals>
+</resources>

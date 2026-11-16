@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Platform › Organizations: the list, one organization, suspend and reactivate, and the plan. The words follow the web admin
+     (web/src/bloem/i18n/catalog/en/platformOrganizations.arb and core.arb). New keys only. -->
+<resources>
+    <!-- Menu and page search -->
+    <string name="platform_orgs_nav">Organizations</string>
+    <string name="shell_page_platform_orgs">Every organization on this server, and its members</string>
+
+    <!-- The list -->
+    <string name="platform_orgs_search_hint">Search name or short name</string>
+    <string name="platform_orgs_status_label">Status</string>
+    <string name="platform_orgs_status_any">Any status</string>
+    <string name="platform_orgs_status_active">Active</string>
+    <string name="platform_orgs_status_suspended">Suspended</string>
+    <string name="platform_orgs_status_initializing">Setting up</string>
+    <string name="platform_orgs_empty">No organizations match these filters</string>
+    <string name="platform_orgs_load_error">The organizations couldn\'t be loaded</string>
+    <string name="platform_orgs_no_access">This account can\'t manage organizations on this server. Ask the server owner for platform access.</string>
+    <string name="platform_orgs_more">Show more</string>
+    <string name="platform_orgs_counts">%1$s · %2$s · %3$s</string>
+    <plurals name="platform_orgs_people">
+        <item quantity="one">%d person</item>
+        <item quantity="other">%d people</item>
+    </plurals>
+    <plurals name="platform_orgs_profiles">
+        <item quantity="one">%d profile</item>
+        <item quantity="other">%d profiles</item>
+    </plurals>
+    <plurals name="platform_orgs_libraries">
+        <item quantity="one">%d library</item>
+        <item quantity="other">%d libraries</item>
+    </plurals>
+
+    <!-- One organization -->
+    <string name="platform_org_load_error">This organization couldn\'t be loaded</string>
+    <string name="platform_org_not_found">Organization not found</string>
+    <string name="platform_org_back">Back to organizations</string>
+    <string name="platform_org_people">People</string>
+    <string name="platform_org_profiles">Profiles</string>
+    <string name="platform_org_own_libraries">Own libraries</string>
+    <string name="platform_org_shared_libraries">Libraries shared with it</string>
+    <string name="platform_org_active_people">%d active</string>
+    <string name="platform_org_about">About</string>
+    <string name="platform_org_status">Status</string>
+    <string name="platform_org_owner">Owner</string>
+    <string name="platform_org_no_owner">Nobody yet</string>
+    <string name="platform_org_owner_unknown">Name unavailable</string>
+    <string name="platform_org_short_name">Short name</string>
+    <string name="platform_org_members">Members</string>
+    <string name="platform_org_members_empty">No members yet</string>
+    <string name="platform_org_members_more">Show more members</string>
+    <string name="platform_org_members_error">The members couldn\'t be loaded. Pull down to try again.</string>
+    <string name="platform_org_role_owner">Owner</string>
+    <string name="platform_org_role_admin">Admin</string>
+    <string name="platform_org_role_member">Member</string>
+    <string name="platform_org_member_active">Active</string>
+    <string name="platform_org_member_invited">Invited</string>
+    <string name="platform_org_member_suspended">Suspended</string>
+
+    <!-- Open as administrator -->
+    <string name="platform_org_open">Open as administrator</string>
+
+    <!-- Suspend and reactivate -->
+    <string name="platform_org_suspend">Suspend organization</string>
+    <string name="platform_org_reactivate">Reactivate organization</string>
+    <string name="platform_org_suspend_title">Suspend %1$s</string>
+    <plurals name="platform_org_suspend_body">
+        <item quantity="one">%1$d active member loses access to %2$s until you reactivate it. Nothing is deleted.</item>
+        <item quantity="other">%1$d active members lose access to %2$s until you reactivate it. Nothing is deleted.</item>
+    </plurals>
+    <string name="platform_org_suspend_body_none">%1$s has no active members right now. Suspending it blocks anyone who joins until you reactivate it. Nothing is deleted.</string>
+    <string name="platform_org_suspend_confirm">Suspend</string>
+    <string name="platform_org_reactivate_title">Reactivate %1$s</string>
+    <string name="platform_org_reactivate_body">Members of %1$s can use it again.</string>
+    <string name="platform_org_reactivate_confirm">Reactivate</string>
+    <string name="platform_org_cancel">Cancel</string>
+    <string name="platform_org_suspended_notice">%1$s is suspended</string>
+    <string name="platform_org_reactivated_notice">%1$s is active again</string>
+    <string name="platform_org_suspend_error">The organization couldn\'t be suspended. Check the connection and try again.</string>
+    <string name="platform_org_reactivate_error">The organization couldn\'t be reactivated. Check the connection and try again.</string>
+    <string name="platform_org_changed">This organization changed while you were looking at it. It has been reloaded; check it and try again.</string>
+
+    <!-- Plan -->
+    <string name="platform_plan_title">Plan</string>
+    <string name="platform_plan_current">Current plan</string>
+    <string name="platform_plan_none">No plan yet</string>
+    <string name="platform_plan_limits">Organization limits</string>
+    <string name="platform_plan_limits_value">%1$s · %2$s at once</string>
+    <string name="platform_plan_libraries">Libraries</string>
+    <string name="platform_plan_last_applied">Last applied</string>
+    <string name="platform_plan_not_yet">Not yet</string>
+    <string name="platform_plan_member_defaults">Default settings for members</string>
+    <string name="platform_plan_no_member_defaults">None yet</string>
+    <string name="platform_plan_intro">Choosing a plan changes the organization\'s default settings for members. Access groups the organization made itself are never changed. You see the changes before they apply.</string>
+    <string name="platform_plan_choose">Choose a plan</string>
+    <string name="platform_plan_current_unavailable">%1$s is no longer offered</string>
+    <string name="platform_plan_no_plans">No plans are offered yet. Plans are set up in the web admin.</string>
+    <string name="platform_plan_preview">Preview changes</string>
+    <string name="platform_plan_checking">Checking…</string>
+    <string name="platform_plan_changes">These settings change</string>
+    <string name="platform_plan_no_changes">Nothing changes: it already uses this plan</string>
+    <string name="platform_plan_apply">Apply plan</string>
+    <string name="platform_plan_confirm_title">Put %1$s on %2$s?</string>
+    <string name="platform_plan_confirm_body">Members on the default settings get the changes you reviewed. Access groups the organization made itself stay as they are.</string>
+    <string name="platform_plan_applied">%1$s is now on %2$s</string>
+    <string name="platform_plan_applied_nothing">Nothing changed: %1$s already uses %2$s</string>
+    <string name="platform_plan_load_error">The plan couldn\'t be loaded</string>
+    <string name="platform_plan_plans_error">The plans couldn\'t be loaded</string>
+    <string name="platform_plan_preview_error">The preview couldn\'t be made. Try again.</string>
+    <string name="platform_plan_apply_error">The plan couldn\'t be applied. Preview the change again, then apply it.</string>
+    <string name="platform_plan_changed">The organization changed while you were reviewing it. Preview the change again.</string>
+
+    <!-- A change in plain words: "Label: before → after" -->
+    <string name="platform_plan_change_line">%1$s: %2$s → %3$s</string>
+    <string name="platform_plan_change_plan">Plan</string>
+    <string name="platform_plan_value_plan">%1$s, revision %2$d</string>
+    <string name="platform_plan_value_no_plan">No plan</string>
+    <string name="platform_policy_yes">Yes</string>
+    <string name="platform_policy_no">No</string>
+    <string name="platform_policy_none">None</string>
+    <string name="platform_policy_all">All</string>
+    <string name="platform_policy_no_limit">No limit</string>
+    <string name="platform_policy_all_libraries">All libraries</string>
+    <string name="platform_policy_all_permissions">All permissions</string>
+    <string name="platform_policy_quality_any">Any quality</string>
+    <string name="platform_policy_quality_original">Original quality</string>
+    <string name="platform_policy_quality_1080p">Up to 1080p</string>
+    <string name="platform_policy_quality_4k">Up to 4K</string>
+    <string name="platform_policy_permission_metadata">Edit metadata</string>
+    <string name="platform_policy_permission_markers">Edit intro and credits markers</string>
+    <string name="platform_policy_permission_live_tv">Watch Live TV</string>
+    <plurals name="platform_policy_screens">
+        <item quantity="one">%d screen</item>
+        <item quantity="other">%d screens</item>
+    </plurals>
+    <plurals name="platform_policy_profiles">
+        <item quantity="one">%d profile</item>
+        <item quantity="other">%d profiles</item>
+    </plurals>
+    <plurals name="platform_policy_conversions">
+        <item quantity="one">%d conversion</item>
+        <item quantity="other">%d conversions</item>
+    </plurals>
+    <plurals name="platform_policy_library_count">
+        <item quantity="one">%d library</item>
+        <item quantity="other">%d libraries</item>
+    </plurals>
+    <string name="platform_policy_field_libraries">Libraries</string>
+    <string name="platform_policy_field_plays_video">Plays video</string>
+    <string name="platform_policy_field_screens">Screens at once</string>
+    <string name="platform_policy_field_profiles">Profiles</string>
+    <string name="platform_policy_field_video_conversion">Video conversion</string>
+    <string name="platform_policy_field_audio_conversion">Audio conversion</string>
+    <string name="platform_policy_field_conversions">Conversions at once</string>
+    <string name="platform_policy_field_download_originals">Download original files</string>
+    <string name="platform_policy_field_download_converted">Download converted copies</string>
+    <string name="platform_policy_field_quality">Best picture quality</string>
+    <string name="platform_policy_field_requests">Media requests</string>
+    <string name="platform_policy_field_permissions">Extra permissions</string>
+
+    <!-- All servers -->
+    <string name="platform_orgs_aggregate_none">No organizations on this server</string>
+    <string name="platform_orgs_aggregate_filtered">No organization on this server matches the search</string>
+</resources>

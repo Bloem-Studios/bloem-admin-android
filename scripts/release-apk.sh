@@ -54,7 +54,7 @@ APK_BUILT="$ROOT/app/build/outputs/apk/release/app-release.apk"
 
 echo "==> Checking the version baked into the APK"
 if [ -x "$AAPT2" ]; then
-  BADGING="$("$AAPT2" dump badging "$APK_BUILT" | head -1)"
+  BADGING="$("$AAPT2" dump badging "$APK_BUILT" | sed -n 1p)"
   case "$BADGING" in
     *"versionName='$VERSION'"*) ;;
     *) die "the APK's version is not $VERSION: $BADGING" ;;
